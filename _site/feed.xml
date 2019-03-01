@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ratizux</title>
+    <description>Blockcity使用Jekyll搭建的博客
+</description>
+    <link>https://ratizux.github.io/</link>
+    <atom:link href="https://ratizux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 28 Feb 2019 23:53:27 +0800</pubDate>
+    <lastBuildDate>Thu, 28 Feb 2019 23:53:27 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>笔记|随身携带Mozilla Firefox</title>
+        <description>&lt;p&gt;如果你经常在外使用公用电脑工作，那你一定苦于Firefox用户数据的同步。&lt;/p&gt;
+
+&lt;p&gt;那么把浏览器数据放在U盘上怎么样？&lt;/p&gt;
+
+&lt;h1 id=&quot;实际上非常简单&quot;&gt;实际上非常简单。&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;在U盘上创建一个文件夹，用来存放Firefox数据。或者，你也可以把你主文件夹里的&lt;code class=&quot;highlighter-rouge&quot;&gt;.mozilla&lt;/code&gt;复制过去。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;firefox --profile 文件夹名&lt;/code&gt;。你可以写一个脚本来做到一键启动。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果你不想在每台公用电脑系统上都安装Firefox，你可以从Mozilla Firefox官网下载二进制文件，放在U盘里运行。当然，这对U盘的性能有一定要求。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 28 Feb 2019 23:41:11 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/02/28/1.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/02/28/1.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>笔记|LXQt的简单美化</title>
+        <description>&lt;p&gt;如果你有台老电脑( 8年或以上，新一点的还是用Mate DE吧 :P )，那么LXQt+OpenBox一定能让你的古董机起飞。(还是不行？试试Fluxbox。)&lt;/p&gt;
+
+&lt;p&gt;但LXQt的默认预设并不美观。所以我们需要调教一下LXQt:&lt;/p&gt;
+
+&lt;h1 id=&quot;安装主题-如果你在使用lubuntu-1810可以跳过这一步&quot;&gt;安装主题 （如果你在使用Lubuntu 18.10，可以跳过这一步。）&lt;/h1&gt;
+
+&lt;p&gt;在&lt;a href=&quot;https://ratizux.github.io/res/theme.tar.xz&quot;&gt;此处&lt;/a&gt;下载笔者打包好的所需文件。&lt;/p&gt;
+
+&lt;p&gt;OpenBox主题:Lubuntu Arc，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/themes/&lt;/code&gt;目录下。&lt;/p&gt;
+
+&lt;p&gt;LXQt主题:Ambiance，LXQt预置。&lt;/p&gt;
+
+&lt;p&gt;图标包:Papirus-Dark，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/&lt;/code&gt;目录下。&lt;/p&gt;
+
+&lt;p&gt;字体:ubuntu，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/fonts/truetype/&lt;/code&gt;目录下。&lt;/p&gt;
+
+&lt;h1 id=&quot;配置&quot;&gt;配置&lt;/h1&gt;
+
+&lt;p&gt;打开LXQt配置中心，将OpenBox主题，LXQt主题，图标包和字体设置好。&lt;/p&gt;
+
+&lt;p&gt;右键面板上左下角的应用程序菜单，选择&lt;code class=&quot;highlighter-rouge&quot;&gt;配置&quot;程序菜单&quot;&lt;/code&gt;，将图标设置为发行版图标(例如Ubuntu为&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/Papirus/64x64/apps/distributor-logo-ubuntu.svg&lt;/code&gt;)，文字设为发行版名称，可以让应用程序菜单看上去更美观。&lt;/p&gt;
+
+&lt;p&gt;修改一个合适的壁纸让你的桌面更美观。例如Lubuntu的默认壁纸加上Ubuntu图标:&lt;a href=&quot;https://ratizux.github.io/res/ubuntu.png&quot;&gt;这里&lt;/a&gt;是一个例子。&lt;/p&gt;
+
+&lt;h1 id=&quot;休眠快捷方式&quot;&gt;休眠快捷方式&lt;/h1&gt;
+
+&lt;p&gt;如果LXQt的电源管理不好用，你又希望用休眠代替关机来加快恢复速度，你可以这样做。&lt;/p&gt;
+
+&lt;p&gt;在一个目录(建议是你的主目录)放置一个内容为&lt;code class=&quot;highlighter-rouge&quot;&gt;echo 你的密码|sudo -S systemctl hibernate&lt;/code&gt;的脚本，给予可执行权限。&lt;/p&gt;
+
+&lt;p&gt;在桌面上放置一个内容如下的桌面配置文件:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Desktop Entry]
+Version=1.0
+Name=Systemd 快速休眠技术
+Comment=一发休眠让你爽到升天
+Exec=放置脚本的路径
+Icon=system-shutdown
+Type=Application
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;右键，勾选&lt;code class=&quot;highlighter-rouge&quot;&gt;Trust this executeable&lt;/code&gt;。你就可以通过快捷方式快速启动休眠了。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Feb 2019 01:55:15 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/02/25/1.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/02/25/1.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>分享|Termux让你在Android手机上简单地使用终端</title>
+        <description>&lt;p&gt;如果你是一位GNU/Linux用户，那么你一定想在Android上使用终端。如果出于某些原因不能使用chroot容器，那么Termux就显得很有用了。&lt;/p&gt;
+
+&lt;p&gt;你可以在&lt;a href=&quot;https://f-droid.org/packages/com.termux/&quot;&gt;这里&lt;/a&gt;下载Termux。完成后保持网络连接并打开Termux，等待安装完成。&lt;/p&gt;
+
+&lt;h1 id=&quot;安装vim&quot;&gt;安装Vim&lt;/h1&gt;
+
+&lt;p&gt;Vim是终端下的一款强大的编辑器。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;apt install vim -y&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;pkg in vim -y&lt;/code&gt;来安装Vim。&lt;/p&gt;
+
+&lt;h1 id=&quot;修改系统配置&quot;&gt;修改系统配置&lt;/h1&gt;
+
+&lt;p&gt;进入终端后执行&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ../usr/etc/&lt;/code&gt;进入存放大多数配置文件的目录。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;motd&lt;/code&gt;：你每次打开终端时显示的内容(问候语)。如果你不喜欢自带的问候语，你可以在这里修改。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bash.bashrc&lt;/code&gt;：每次打开终端时执行的指令。如果你想让终端启动时自动执行事务或者想要缩写命令，编辑提示符，可以修改此文件。例如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;alias &quot;l&quot;=&quot;ls&quot;&lt;/code&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;缩写为&lt;code class=&quot;highlighter-rouge&quot;&gt;l&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1=&#39;\$ &#39;&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1=&#39;&amp;gt; &#39;&lt;/code&gt;以将提示符由&lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;apt/&lt;/code&gt;：存放apt配置文件的目录。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;vim apt/sources.list&lt;/code&gt;来用Vim编辑软件源。如果你在中国大陆，你可以将软件源改为TUNA镜像站以达到加速的目的：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;进入Vim后，右滑打开菜单并长按”KEYBOARD”键启用虚拟按键。&lt;/li&gt;
+  &lt;li&gt;按I进入插入模式，像普通的文本编辑器一样操作，将&lt;code class=&quot;highlighter-rouge&quot;&gt;termux.net&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;mirrors.tuna.tsinghua.edu.cn&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;按ESC退出插入模式，输入&lt;code class=&quot;highlighter-rouge&quot;&gt;:x&lt;/code&gt;保存文件并退出。&lt;/li&gt;
+  &lt;li&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;apt update&lt;/code&gt;刷新软件源缓存。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;修改完毕后，建议执行&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;切换到主目录以确保你不会把文件放到错误的地方。&lt;/p&gt;
+
+&lt;h1 id=&quot;安装clang编译器并编译c程序&quot;&gt;安装Clang编译器并编译C++程序&lt;/h1&gt;
+
+&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;apt install clang&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;pkg in clang&lt;/code&gt;来安装Clang。&lt;/p&gt;
+
+&lt;p&gt;确保已经打开虚拟按键(右滑打开菜单并长按”KEYBOARD”键启用)或连接物理键盘，否则可能无法退出Vim。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;vim hello.cpp&lt;/code&gt;，按I进入插入模式，输入以下代码：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include&amp;lt;iostream&amp;gt;
+using namespace std;
+int main()
+{
+cout&amp;lt;&amp;lt;&quot;Hello, world!\n&quot;;
+return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;完成后，按ESC退出插入模式。输入&lt;code class=&quot;highlighter-rouge&quot;&gt;:x&lt;/code&gt;保存并退出，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;clang -o hello hello.cpp&lt;/code&gt;并执行&lt;code class=&quot;highlighter-rouge&quot;&gt;./hello&lt;/code&gt;，程序应该会输出&lt;code class=&quot;highlighter-rouge&quot;&gt;Hello, world!&lt;/code&gt;。&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 22 Feb 2019 19:07:59 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/02/22/1.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/02/22/1.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>教程|用Docker容器折腾Linux</title>
+        <description>&lt;p&gt;如果你是一位刚开始使用Linux的初学者，你可能需要上机熟悉下操作————比如安装LNMP。但拿自己的主力机”做实验”未免代价太大，使用VPS又会产生很大的开销。你可能会选择使用VM，但你也可以使用Docker容器，一种更轻量快速的方式。&lt;/p&gt;
+
+&lt;p&gt;使用Docker容器的优点:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;与主系统共用一个内核，相对VM而言更快速，不会像VM那样明显的拖慢你的系统。&lt;/li&gt;
+  &lt;li&gt;大量镜像可供下载，你不再需要把时间浪费在安装系统上。(当然，你不能在Docker上练习操作系统的安装，因为镜像是开箱即用的。除非你做得到！)&lt;/li&gt;
+  &lt;li&gt;便于备份。如果你失败了就恢复重来。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;安装opensuse容器&quot;&gt;安装openSUSE容器&lt;/h1&gt;
+
+&lt;p&gt;确保docker已安装并在运行(如果你使用systemd作为init系统(大部分发行版都是这样)，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo systemctl start docker&lt;/code&gt;启动docker。)&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker pull opensuse&lt;/code&gt;，下载openSUSE容器镜像。下载完成后执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker run -dit --name container opensuse /bin/bash&lt;/code&gt;创建并启动openSUSE容器。&lt;/p&gt;
+
+&lt;p&gt;通俗的讲，&lt;code class=&quot;highlighter-rouge&quot;&gt;-dit&lt;/code&gt;让容器后台运行，&lt;code class=&quot;highlighter-rouge&quot;&gt;--name&lt;/code&gt;参数决定容器的命名。&lt;code class=&quot;highlighter-rouge&quot;&gt;opensuse&lt;/code&gt;是镜像的名字，&lt;code class=&quot;highlighter-rouge&quot;&gt;/bin/bash&lt;/code&gt;命令让Bash运行。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker attach container&lt;/code&gt;来连接容器的虚拟终端。&lt;code class=&quot;highlighter-rouge&quot;&gt;zypper ref&lt;/code&gt;刷新软件源，&lt;code class=&quot;highlighter-rouge&quot;&gt;zypper in 包名&lt;/code&gt;来安装软件包，&lt;code class=&quot;highlighter-rouge&quot;&gt;zypper --help&lt;/code&gt;查看帮助。&lt;/p&gt;
+
+&lt;h1 id=&quot;安装软件&quot;&gt;安装软件&lt;/h1&gt;
+
+&lt;p&gt;Docker镜像一般较精简，所以你要自行安装你需要的软件包。这里是一些建议:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command-not-found&lt;/code&gt;帮助你找到能提供指令的软件包。&lt;code class=&quot;highlighter-rouge&quot;&gt;cnf 命令&lt;/code&gt;来使用，例如&lt;code class=&quot;highlighter-rouge&quot;&gt;cnf ssh&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;Vim是一款优秀的终端下的编辑器。当然建议先看看Vim的教程，不然你可能连怎么退出Vim都不知道！&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;w3m&lt;/code&gt;命令行下的浏览器，有时候还挺有用的。虽然看上去很蠢！&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;screenfetch&lt;/code&gt;快速了解你的容器参数。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt;来退出虚拟终端。如果你没有运行别的东西，容器应该会自动关闭。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker ps&lt;/code&gt;列出正在运行的容器&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker ps -a&lt;/code&gt;列出所有容器&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker start 容器名&lt;/code&gt;启动容器&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker stop 容器名&lt;/code&gt;停止容器&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker attach 容器名&lt;/code&gt;连接到容器的虚拟终端&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker rm 容器名&lt;/code&gt;删除容器&lt;/p&gt;
+
+&lt;p&gt;如果openSUSE有问题，你可以参考&lt;a href=&quot;https://zh.opensuse.org&quot;&gt;openSUSE Wiki&lt;/a&gt;或者通过&lt;a href=&quot;https://t.me/opensuse_cn&quot;&gt;链接&lt;/a&gt;加入openSUSE的官方群组。如果你有能力，那么&lt;a href=&quot;https://wiki.archlinux.org&quot;&gt;ArchWiki&lt;/a&gt;也可以。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Feb 2019 02:01:28 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/02/21/1.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/02/21/1.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>教程|搭建使用GitHub Pages的Jekyll博客</title>
+        <description>&lt;p&gt;如果你没有资金使用VPS，或者只是为了方便，你可以用GitHub Pages作为免费空间并搭建博客。&lt;/p&gt;
+
+&lt;p&gt;以下内容假设你在使用Ubuntu 18.10或openSUSE Tumbleweed(其他发行版类似)，并且已经拥有一个GitHub帐号。&lt;/p&gt;
+
+&lt;p&gt;首先，前往&lt;a href=&quot;https://github.com/&quot;&gt;https://github.com/&lt;/a&gt;，新建一个名为”你的用户名.github.io”的库。&lt;/p&gt;
+
+&lt;h1 id=&quot;安装git和jekyll&quot;&gt;安装Git和Jekyll&lt;/h1&gt;
+
+&lt;p&gt;如果你以前没有安装过Git，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install git&lt;/code&gt;来安装命令行Git。&lt;/p&gt;
+
+&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/你的用户名/你的用户名.github.io&lt;/code&gt;然后，&lt;code class=&quot;highlighter-rouge&quot;&gt;cd &#39;你的用户名.github.io&#39;&lt;/code&gt;来进入你的GitHub库。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install jekyll&lt;/code&gt;(Ubuntu)或&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo zypper in ruby2.6-rubygem-jekyll&lt;/code&gt;(openSUSE)来安装你要的Jekyll。为了方便，我们先&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;退出目录，然后&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new site &amp;amp;&amp;amp; cd site &amp;amp;&amp;amp; jekyll serve -w&lt;/code&gt;。如果你现在打开浏览器并进入&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;，你就能看到你的静态博客了。&lt;/p&gt;
+
+&lt;p&gt;先别急。回到终端，按Ctrl+C停止Jekyll，再执行&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;。此时如果你执行&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;应当可以同时看到”site”和”你的用户名.github.io”两个文件夹。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;cp -r site/* 你的用户名.github.io/&lt;/code&gt;把site里的所有文件复制到GitHub本地库里。&lt;code class=&quot;highlighter-rouge&quot;&gt;cd 你的用户名.github.io &amp;amp;&amp;amp; jekyll serve -w&lt;/code&gt;，如果这时候&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;能正常访问，你就可以把site文件夹删了。&lt;/p&gt;
+
+&lt;h1 id=&quot;撰写文章&quot;&gt;撰写文章&lt;/h1&gt;
+
+&lt;p&gt;进入”_posts”文件夹，你所有的文章都在里面。这篇教程中我们使用Markdown语法来写文章。新建一个名为”年-月-日-标题.格式”的文章。假设这篇文章是在2019年2月18日用Markdown写的，那么就把它命名为”2019-02-18-1.md”。&lt;/p&gt;
+
+&lt;p&gt;打开我们刚创建的文档，输入头信息。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: &#39;你想给这篇文章的名字&#39;
+date: 写这篇文章的时间。例如&quot;2019-02-18 21:31:16 +0800&quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;获取当前时间的一个简便方法是在你的终端里执行&lt;code class=&quot;highlighter-rouge&quot;&gt;date +%F\ %T\ %z&lt;/code&gt;，然后把输出的时间粘贴到那里。&lt;/p&gt;
+
+&lt;p&gt;头信息下面是正文部分。如果你还不会写Markdown，建议你参考&lt;a href=&quot;http://www.markdown.cn/&quot;&gt;http://www.markdown.cn/&lt;/a&gt;。写完之后保存文件。现在你可以修改一下上级目录里的”_config.yml”，让它看起来像一个正常的博客。顺便看一下&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;中的变化是否令你满意。如果一切都如预期发展，你现在就可以关闭文本编辑器和浏览器，在终端按Ctrl+C关闭Jekyll，然后你就可以把改动提交到GitHub库了。&lt;/p&gt;
+
+&lt;p&gt;关闭Jekyll，不要退出终端。现在你应该还在”你的用户名.github.io”文件夹里。接着执行以下命令:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add --all&lt;/code&gt;添加所有文件到本地库。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;提交信息&quot;&lt;/code&gt;添加提交信息。例如”新增了1篇文章”。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt;并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。&lt;/p&gt;
+
+&lt;p&gt;打开浏览器，进入”https://你的用户名.github.io”即可看到你的博客。&lt;/p&gt;
+
+&lt;h1 id=&quot;配置完成后做什么&quot;&gt;配置完成后做什么&lt;/h1&gt;
+
+&lt;p&gt;如果你之后想要继续写文章，只需要:&lt;/p&gt;
+
+&lt;p&gt;打开终端，&lt;code class=&quot;highlighter-rouge&quot;&gt;cd 你的用户名.github.io&lt;/code&gt;进入”你的用户名.github.io”文件夹。&lt;/p&gt;
+
+&lt;p&gt;在”_posts”子文件夹里用你喜欢的语法写文章。&lt;/p&gt;
+
+&lt;p&gt;回到”你的用户名.github.io”文件夹，执行”jekyll build”，生成静态网页。&lt;/p&gt;
+
+&lt;p&gt;并和第一次操作时一样:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add --all&lt;/code&gt;添加所有文件到本地库。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;提交信息&quot;&lt;/code&gt;添加提交信息。比如”新增了1篇文章”。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt;并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。&lt;/p&gt;
+
+&lt;p&gt;尽情享受Jekyll带来的便利吧！&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Feb 2019 21:31:16 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/02/18/2.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/02/18/2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>笔记|Hello, world!</title>
+        <description>&lt;p&gt;使用Jekyll搭建的静态博客Ratizux.&lt;/p&gt;
+
+&lt;p&gt;你可以随时订阅我的Telegram频道&lt;a href=&quot;https://t.me/neblk&quot;&gt;https://t.me/neblk&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Feb 2019 21:06:57 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/02/18/1.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/02/18/1.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

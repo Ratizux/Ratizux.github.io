@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>教程|搭建使用GitHub Pages的Jekyll博客</title>
+  <meta name="description" content="如果你没有资金使用VPS，或者只是为了方便，你可以用GitHub Pages作为免费空间并搭建博客。">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://ratizux.github.io/2019/02/18/2.html">
+  <link rel="alternate" type="application/rss+xml" title="Ratizux" href="https://ratizux.github.io/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Ratizux</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">教程|搭建使用GitHub Pages的Jekyll博客</h1>
+    <p class="post-meta"><time datetime="2019-02-18T21:31:16+08:00" itemprop="datePublished">Feb 18, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>如果你没有资金使用VPS，或者只是为了方便，你可以用GitHub Pages作为免费空间并搭建博客。</p>
+
+<p>以下内容假设你在使用Ubuntu 18.10或openSUSE Tumbleweed(其他发行版类似)，并且已经拥有一个GitHub帐号。</p>
+
+<p>首先，前往<a href="https://github.com/">https://github.com/</a>，新建一个名为”你的用户名.github.io”的库。</p>
+
+<h1 id="安装git和jekyll">安装Git和Jekyll</h1>
+
+<p>如果你以前没有安装过Git，执行<code class="highlighter-rouge">sudo apt install git</code>来安装命令行Git。</p>
+
+<p>执行<code class="highlighter-rouge">git clone https://github.com/你的用户名/你的用户名.github.io</code>然后，<code class="highlighter-rouge">cd '你的用户名.github.io'</code>来进入你的GitHub库。</p>
+
+<p><code class="highlighter-rouge">sudo apt install jekyll</code>(Ubuntu)或<code class="highlighter-rouge">sudo zypper in ruby2.6-rubygem-jekyll</code>(openSUSE)来安装你要的Jekyll。为了方便，我们先<code class="highlighter-rouge">cd ..</code>退出目录，然后<code class="highlighter-rouge">jekyll new site &amp;&amp; cd site &amp;&amp; jekyll serve -w</code>。如果你现在打开浏览器并进入<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>，你就能看到你的静态博客了。</p>
+
+<p>先别急。回到终端，按Ctrl+C停止Jekyll，再执行<code class="highlighter-rouge">cd ..</code>。此时如果你执行<code class="highlighter-rouge">ls</code>应当可以同时看到”site”和”你的用户名.github.io”两个文件夹。执行<code class="highlighter-rouge">cp -r site/* 你的用户名.github.io/</code>把site里的所有文件复制到GitHub本地库里。<code class="highlighter-rouge">cd 你的用户名.github.io &amp;&amp; jekyll serve -w</code>，如果这时候<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>能正常访问，你就可以把site文件夹删了。</p>
+
+<h1 id="撰写文章">撰写文章</h1>
+
+<p>进入”_posts”文件夹，你所有的文章都在里面。这篇教程中我们使用Markdown语法来写文章。新建一个名为”年-月-日-标题.格式”的文章。假设这篇文章是在2019年2月18日用Markdown写的，那么就把它命名为”2019-02-18-1.md”。</p>
+
+<p>打开我们刚创建的文档，输入头信息。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title: '你想给这篇文章的名字'
+date: 写这篇文章的时间。例如"2019-02-18 21:31:16 +0800"
+---
+</code></pre></div></div>
+
+<p>获取当前时间的一个简便方法是在你的终端里执行<code class="highlighter-rouge">date +%F\ %T\ %z</code>，然后把输出的时间粘贴到那里。</p>
+
+<p>头信息下面是正文部分。如果你还不会写Markdown，建议你参考<a href="http://www.markdown.cn/">http://www.markdown.cn/</a>。写完之后保存文件。现在你可以修改一下上级目录里的”_config.yml”，让它看起来像一个正常的博客。顺便看一下<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>中的变化是否令你满意。如果一切都如预期发展，你现在就可以关闭文本编辑器和浏览器，在终端按Ctrl+C关闭Jekyll，然后你就可以把改动提交到GitHub库了。</p>
+
+<p>关闭Jekyll，不要退出终端。现在你应该还在”你的用户名.github.io”文件夹里。接着执行以下命令:</p>
+
+<p><code class="highlighter-rouge">git add --all</code>添加所有文件到本地库。</p>
+
+<p><code class="highlighter-rouge">git commit -m "提交信息"</code>添加提交信息。例如”新增了1篇文章”。</p>
+
+<p><code class="highlighter-rouge">git push -u origin master</code>并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。</p>
+
+<p>打开浏览器，进入”https://你的用户名.github.io”即可看到你的博客。</p>
+
+<h1 id="配置完成后做什么">配置完成后做什么</h1>
+
+<p>如果你之后想要继续写文章，只需要:</p>
+
+<p>打开终端，<code class="highlighter-rouge">cd 你的用户名.github.io</code>进入”你的用户名.github.io”文件夹。</p>
+
+<p>在”_posts”子文件夹里用你喜欢的语法写文章。</p>
+
+<p>回到”你的用户名.github.io”文件夹，执行”jekyll build”，生成静态网页。</p>
+
+<p>并和第一次操作时一样:</p>
+
+<p><code class="highlighter-rouge">git add --all</code>添加所有文件到本地库。</p>
+
+<p><code class="highlighter-rouge">git commit -m "提交信息"</code>添加提交信息。比如”新增了1篇文章”。</p>
+
+<p><code class="highlighter-rouge">git push -u origin master</code>并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。</p>
+
+<p>尽情享受Jekyll带来的便利吧！</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Ratizux</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Ratizux</li>
+          <li><a href="mailto:nebclllo0444@gmail.com">nebclllo0444@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/Ratizux"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">Ratizux</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Blockcity使用Jekyll搭建的博客
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
