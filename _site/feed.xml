@@ -6,8 +6,8 @@
 </description>
     <link>https://ratizux.github.io/</link>
     <atom:link href="https://ratizux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Mar 2019 20:22:24 +0800</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 20:22:24 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2019 13:48:22 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2019 13:48:22 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -77,11 +77,11 @@
     
       <item>
         <title>笔记|随身携带Mozilla Firefox</title>
-        <description>&lt;p&gt;如果你经常在外使用公用电脑工作，那你一定苦于Firefox用户数据的同步。&lt;/p&gt;
+        <description>&lt;p&gt;Firefox用户数据的同步太麻烦，或是太慢了？&lt;/p&gt;
 
 &lt;p&gt;那么把浏览器数据放在U盘上怎么样？&lt;/p&gt;
 
-&lt;h1 id=&quot;实际上非常简单&quot;&gt;实际上非常简单。&lt;/h1&gt;
+&lt;h1 id=&quot;实际上非常简单&quot;&gt;实际上非常简单&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;在U盘上创建一个文件夹，用来存放Firefox数据。或者，你也可以把你主文件夹里的&lt;code class=&quot;highlighter-rouge&quot;&gt;.mozilla&lt;/code&gt;复制过去。&lt;/li&gt;
@@ -98,9 +98,9 @@
     
       <item>
         <title>笔记|LXQt的简单美化</title>
-        <description>&lt;p&gt;如果你有台老电脑( 8年或以上，新一点的还是用Mate DE吧 :P )，那么LXQt+OpenBox一定能让你的古董机起飞。(还是不行？试试Fluxbox。)&lt;/p&gt;
+        <description>&lt;p&gt;用LXQt+OpenBox让你的古董电脑起飞吧！(还是不行？试试Fluxbox。)&lt;/p&gt;
 
-&lt;p&gt;但LXQt的默认预设并不美观。所以我们需要调教一下LXQt:&lt;/p&gt;
+&lt;p&gt;LXQt的默认预设并不美观。但如果你的电脑性能不足以使用MATE DE，你可能需要调教一下LXQt:&lt;/p&gt;
 
 &lt;h1 id=&quot;安装主题-如果你在使用lubuntu-1810可以跳过这一步&quot;&gt;安装主题 （如果你在使用Lubuntu 18.10，可以跳过这一步。）&lt;/h1&gt;
 
@@ -150,7 +150,9 @@ Type=Application
     
       <item>
         <title>分享|Termux让你在Android手机上简单地使用终端</title>
-        <description>&lt;p&gt;如果你是一位GNU/Linux用户，那么你一定想在Android上使用终端。如果出于某些原因不能使用chroot容器，那么Termux就显得很有用了。&lt;/p&gt;
+        <description>&lt;p&gt;你是GNU/Linux用户吗？试试在Andoroid手机上使用Termux来让你找回”家的温暖”。&lt;/p&gt;
+
+&lt;p&gt;(Termux也不能让你满足？你可以试一下用Linux Deploy在Android手机上管理chroot容器。)&lt;/p&gt;
 
 &lt;p&gt;你可以在&lt;a href=&quot;https://f-droid.org/packages/com.termux/&quot;&gt;这里&lt;/a&gt;下载Termux。完成后保持网络连接并打开Termux，等待安装完成。&lt;/p&gt;
 
@@ -265,7 +267,7 @@ return 0;
     
       <item>
         <title>教程|搭建使用GitHub Pages的Jekyll博客</title>
-        <description>&lt;p&gt;如果你没有资金使用VPS，或者只是为了方便，你可以用GitHub Pages作为免费空间并搭建博客。&lt;/p&gt;
+        <description>&lt;p&gt;想搭建自己的博客，却没有资金使用昂贵的VPS？你可以用GitHub Pages作为免费空间并搭建博客。&lt;/p&gt;
 
 &lt;p&gt;以下内容假设你在使用Ubuntu 18.10或openSUSE Tumbleweed(其他发行版类似)，并且已经拥有一个GitHub帐号。&lt;/p&gt;
 
