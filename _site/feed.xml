@@ -6,9 +6,58 @@
 </description>
     <link>https://ratizux.github.io/</link>
     <atom:link href="https://ratizux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Mar 2019 13:48:22 +0800</pubDate>
-    <lastBuildDate>Mon, 04 Mar 2019 13:48:22 +0800</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Sat, 09 Mar 2019 18:28:07 +0800</pubDate>
+    <lastBuildDate>Sat, 09 Mar 2019 18:28:07 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>观点|不友好的技术社区</title>
+        <description>&lt;p&gt;不针对任何一个社区，仅在此表达本人看法。&lt;/p&gt;
+
+&lt;p&gt;“为什么这个社区如此不友好？”&lt;/p&gt;
+
+&lt;h1 id=&quot;歧视新手&quot;&gt;歧视新手&lt;/h1&gt;
+
+&lt;p&gt;看上去大部分社区都有这样的人存在。是的，我们承认，我们的技术没有你的好，有时新手也很烦人。&lt;/p&gt;
+
+&lt;p&gt;但是冷落、歧视、嘲笑新手，甚至拿新手取乐、将新手的言论挂在频道上示众，就完全是道德问题了。难道新手就是用来娱乐大众的吗？&lt;/p&gt;
+
+&lt;p&gt;多说一句，那些歧视新手的”大佬”，难道不是从新手阶段开始学习技术的吗？&lt;/p&gt;
+
+&lt;h1 id=&quot;偏见与狂热者&quot;&gt;偏见与狂热者&lt;/h1&gt;
+
+&lt;p&gt;“Arch是最好的发行版”&lt;/p&gt;
+
+&lt;p&gt;对有些人来说Arch确实很适合他们。但我认为发行版没有好坏之分，只有适不适合之分。&lt;/p&gt;
+
+&lt;p&gt;“Debian是最古老的发行版”&lt;/p&gt;
+
+&lt;p&gt;真的是这样吗？看一下Linux发行版时间线就能一眼发现问题。&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Linux_Distribution_Timeline.svg/2820px-Linux_Distribution_Timeline.svg.png&quot;&gt;链接在这里&lt;/a&gt;（需科学上网）。&lt;/p&gt;
+
+&lt;p&gt;“APT是最好用的包管理器”&lt;/p&gt;
+
+&lt;p&gt;你好，zypper也许不是最好的包管理器，但请用它和APT比较一下。你会知道哪个更好的。&lt;/p&gt;
+
+&lt;h1 id=&quot;滥用权力&quot;&gt;滥用权力&lt;/h1&gt;
+
+&lt;p&gt;“滥权”。还有些网友专为滥权制作了一组Telegram贴纸。有时候你说了几句管理员不喜欢的话，也没有违反社区规定。甚至有时候是因为管理员对你的嫉妒，你就被封禁了。&lt;/p&gt;
+
+&lt;p&gt;感觉怎么样？&lt;/p&gt;
+
+&lt;p&gt;但是滥用权力现象似乎普遍存在。&lt;/p&gt;
+
+&lt;h1 id=&quot;结语&quot;&gt;结语&lt;/h1&gt;
+
+&lt;p&gt;我认为好的社区，不应存在以上行为————至少可以不影响正常交流。&lt;/p&gt;
+
+&lt;p&gt;例如openSUSE和Gentoo社区。可惜这两个发行版都并不属于主流。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Mar 2019 17:46:03 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/03/09/1.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/03/09/1.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>分享|Pikayi的一些照片</title>
@@ -170,7 +219,7 @@ Type=Application
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;alias &quot;l&quot;=&quot;ls&quot;&lt;/code&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;缩写为&lt;code class=&quot;highlighter-rouge&quot;&gt;l&lt;/code&gt;。&lt;/li&gt;
-  &lt;li&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1=&#39;\$ &#39;&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1=&#39;&amp;gt; &#39;&lt;/code&gt;以将提示符由&lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1='\$ '&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1='&amp;gt; '&lt;/code&gt;以将提示符由&lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;apt/&lt;/code&gt;：存放apt配置文件的目录。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;vim apt/sources.list&lt;/code&gt;来用Vim编辑软件源。如果你在中国大陆，你可以将软件源改为TUNA镜像站以达到加速的目的：&lt;/p&gt;
@@ -277,7 +326,7 @@ return 0;
 
 &lt;p&gt;如果你以前没有安装过Git，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install git&lt;/code&gt;来安装命令行Git。&lt;/p&gt;
 
-&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/你的用户名/你的用户名.github.io&lt;/code&gt;然后，&lt;code class=&quot;highlighter-rouge&quot;&gt;cd &#39;你的用户名.github.io&#39;&lt;/code&gt;来进入你的GitHub库。&lt;/p&gt;
+&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/你的用户名/你的用户名.github.io&lt;/code&gt;然后，&lt;code class=&quot;highlighter-rouge&quot;&gt;cd '你的用户名.github.io'&lt;/code&gt;来进入你的GitHub库。&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install jekyll&lt;/code&gt;(Ubuntu)或&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo zypper in ruby2.6-rubygem-jekyll&lt;/code&gt;(openSUSE)来安装你要的Jekyll。为了方便，我们先&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;退出目录，然后&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new site &amp;amp;&amp;amp; cd site &amp;amp;&amp;amp; jekyll serve -w&lt;/code&gt;。如果你现在打开浏览器并进入&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;，你就能看到你的静态博客了。&lt;/p&gt;
 
@@ -291,7 +340,7 @@ return 0;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 layout: post
-title: &#39;你想给这篇文章的名字&#39;
+title: '你想给这篇文章的名字'
 date: 写这篇文章的时间。例如&quot;2019-02-18 21:31:16 +0800&quot;
 ---
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
