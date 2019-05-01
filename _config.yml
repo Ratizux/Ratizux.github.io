@@ -10,7 +10,7 @@ title: Ratizux
 name: Blockcity
 email: nebclllo0444@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Blockcity使用Jekyll搭建的博客<br/>使用Creative Commons<br/>请阅读一下关于页面
+  Blockcity 使用 Jekyll 搭建的博客<br/>使用 Creative Commons<br/>请阅读一下关于页面
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ratizux.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb

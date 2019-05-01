@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>分享|Termux让你在Android手机上简单地使用终端</title>
-  <meta name="description" content="你是GNU/Linux用户吗？试试在Andoroid手机上使用Termux来让你找回”家的温暖”。">
+  <title>分享 | Termux 让你在 Android 手机上简单地使用终端</title>
+  <meta name="description" content="你是 GNU/Linux 用户吗？试试在 Andoroid 手机上使用 Termux 来让你找回”家的温暖”。">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/2019/02/22/1.html">
@@ -57,20 +57,30 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">分享|Termux让你在Android手机上简单地使用终端</h1>
-    <p class="post-meta"><time datetime="2019-02-22T19:07:59+08:00" itemprop="datePublished">Feb 22, 2019</time></p>
+    <h1 class="post-title" itemprop="name headline">分享 | Termux 让你在 Android 手机上简单地使用终端</h1>
+    <p class="post-meta"><time datetime="2019-02-22T00:00:00+08:00" itemprop="datePublished">Feb 22, 2019</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>你是GNU/Linux用户吗？试试在Andoroid手机上使用Termux来让你找回”家的温暖”。</p>
+    <p>你是 GNU/Linux 用户吗？试试在 Andoroid 手机上使用 Termux 来让你找回”家的温暖”。</p>
 
-<p>(Termux也不能让你满足？你可以试一下用Linux Deploy在Android手机上管理chroot容器。)</p>
+<p>(或者，你也可以试一下用 Linux Deploy 在 Android 手机上管理 chroot 容器。)</p>
 
-<p>你可以在<a href="https://f-droid.org/packages/com.termux/">这里</a>下载Termux。完成后保持网络连接并打开Termux，等待安装完成。</p>
+<p>你可以在 <a href="https://f-droid.org/packages/com.termux/">F-Droid 的这个页面</a>下载 Termux 。完成后保持网络通畅并打开 Termux ，等待安装完成。目前，你无需科学上网就能连接 Termux 的官方软件源。如果不行，请试试使用代理。</p>
 
-<h1 id="安装vim">安装Vim</h1>
+<h1 id="新手上路">新手上路</h1>
 
-<p>Vim是终端下的一款强大的编辑器。执行<code class="highlighter-rouge">apt install vim -y</code>或<code class="highlighter-rouge">pkg in vim -y</code>来安装Vim。</p>
+<p>使用 Termux 时，你会发现很多操作都与电脑上的相似。即使对于新手，它也不是太难上手。</p>
+
+<p>如果需要，你可以看看 Linux 终端入门之类的教程。</p>
+
+<h1 id="使用-android-上的资源">使用 Android 上的资源</h1>
+
+<p>Termux 提供了一个指令：<code class="highlighter-rouge">termux-setup-storage</code>。执行后，你就能在主目录发现一个链接到内置存储的文件。</p>
+
+<h1 id="安装-vim">安装 Vim</h1>
+
+<p>Vim 是终端下的一款强大的编辑器。执行<code class="highlighter-rouge">apt install vim -y</code>或<code class="highlighter-rouge">pkg in vim -y</code>来安装 Vim。</p>
 
 <h1 id="修改系统配置">修改系统配置</h1>
 
@@ -85,7 +95,7 @@
   <li>将<code class="highlighter-rouge">PS1='\$ '</code>改为<code class="highlighter-rouge">PS1='&gt; '</code>以将提示符由<code class="highlighter-rouge">$</code>改为<code class="highlighter-rouge">&gt;</code>。</li>
 </ul>
 
-<p><code class="highlighter-rouge">apt/</code>：存放apt配置文件的目录。执行<code class="highlighter-rouge">vim apt/sources.list</code>来用Vim编辑软件源。如果你在中国大陆，你可以将软件源改为TUNA镜像站以达到加速的目的：</p>
+<p><code class="highlighter-rouge">apt/</code>：存放 apt 配置文件的目录。执行<code class="highlighter-rouge">vim apt/sources.list</code>来用 Vim 编辑软件源。如果你在中国大陆，你可以将软件源改为 TUNA 镜像站以达到加速的目的：</p>
 
 <ul>
   <li>进入Vim后，右滑打开菜单并长按”KEYBOARD”键启用虚拟按键。</li>
@@ -96,11 +106,11 @@
 
 <p>修改完毕后，建议执行<code class="highlighter-rouge">cd</code>切换到主目录以确保你不会把文件放到错误的地方。</p>
 
-<h1 id="安装clang编译器并编译c程序">安装Clang编译器并编译C++程序</h1>
+<h1 id="安装-clang-编译器并编译-c-程序">安装 Clang 编译器并编译 C++ 程序</h1>
 
-<p>执行<code class="highlighter-rouge">apt install clang</code>或<code class="highlighter-rouge">pkg in clang</code>来安装Clang。</p>
+<p>执行<code class="highlighter-rouge">apt install clang</code>或<code class="highlighter-rouge">pkg in clang</code>来安装 Clang 。</p>
 
-<p>确保已经打开虚拟按键(右滑打开菜单并长按”KEYBOARD”键启用)或连接物理键盘，否则可能无法退出Vim。执行<code class="highlighter-rouge">vim hello.cpp</code>，按I进入插入模式，输入以下代码：</p>
+<p>确保已经打开虚拟按键(右滑打开菜单并长按”KEYBOARD”键启用)或连接物理键盘，否则可能无法退出 Vim 。执行<code class="highlighter-rouge">vim hello.cpp</code>，按 I 进入插入模式，输入以下代码：</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include&lt;iostream&gt;
 using namespace std;
@@ -111,7 +121,7 @@ return 0;
 }
 </code></pre></div></div>
 
-<p>完成后，按ESC退出插入模式。输入<code class="highlighter-rouge">:x</code>保存并退出，执行<code class="highlighter-rouge">clang -o hello hello.cpp</code>并执行<code class="highlighter-rouge">./hello</code>，程序应该会输出<code class="highlighter-rouge">Hello, world!</code>。</p>
+<p>完成后，按 ESC 退出插入模式。输入<code class="highlighter-rouge">:x</code>保存并退出，执行<code class="highlighter-rouge">clang -o hello hello.cpp</code>并执行<code class="highlighter-rouge">./hello</code>，程序应该会输出<code class="highlighter-rouge">Hello, world!</code>。这说明你的 Clang 编译器正常工作。</p>
 
 
   </div>
@@ -150,7 +160,7 @@ return 0;
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Blockcity使用Jekyll搭建的博客<br/>使用Creative Commons<br/>请阅读一下关于页面
+        <p>Blockcity 使用 Jekyll 搭建的博客<br/>使用 Creative Commons<br/>请阅读一下关于页面
 </p>
       </div>
     </div>

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>笔记 | 指定 Mozilla Firefox 的数据目录</title>
-  <meta name="description" content="Mozilla Firefox 提供了指定数据目录的功能。看似不起眼，但你可以通过这个功能实现很多新玩法。">
+  <title>摸鱼 | 中国学生的日程</title>
+  <meta name="description" content="仅供娱乐，请勿认真对待。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2019/02/28/1.html">
+  <link rel="canonical" href="http://localhost:4000/2019/03/28/1.html">
   <link rel="alternate" type="application/rss+xml" title="Ratizux" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -57,37 +57,73 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">笔记 | 指定 Mozilla Firefox 的数据目录</h1>
-    <p class="post-meta"><time datetime="2019-02-28T00:00:00+08:00" itemprop="datePublished">Feb 28, 2019</time></p>
+    <h1 class="post-title" itemprop="name headline">摸鱼 | 中国学生的日程</h1>
+    <p class="post-meta"><time datetime="2019-03-28T00:00:00+08:00" itemprop="datePublished">Mar 28, 2019</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Mozilla Firefox 提供了指定数据目录的功能。看似不起眼，但你可以通过这个功能实现很多新玩法。</p>
+    <p>仅供娱乐，请勿认真对待。</p>
 
-<h1 id="随身携带-firefox">随身携带 Firefox</h1>
+<table>
+  <thead>
+    <tr>
+      <th>5:00 AM</th>
+      <th>6:00 AM</th>
+      <th>7:00 AM</th>
+      <th>8:00 AM</th>
+      <th>9:00 AM</th>
+      <th>10:00 AM</th>
+      <th>11:00 AM</th>
+      <th>12:00 AM</th>
+      <th>1:00 PM</th>
+      <th>2:00 PM</th>
+      <th>3:00 PM</th>
+      <th>4:00 PM</th>
+      <th>5:00 PM</th>
+      <th>6:00 PM</th>
+      <th>7:00 PM</th>
+      <th>8:00 PM</th>
+      <th>9:00 PM</th>
+      <th>10:00 PM</th>
+      <th>11:00 PM</th>
+      <th>12:00 PM</th>
+      <th>1:00 AM</th>
+      <th>2:00 AM</th>
+      <th>3:00 AM</th>
+      <th>4:00 AM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>睡觉</td>
+      <td>起床</td>
+      <td>早读</td>
+      <td>上课</td>
+      <td>上课</td>
+      <td>仍然在上课</td>
+      <td>还是在上课</td>
+      <td>放学，吃饭</td>
+      <td>午休</td>
+      <td>上课</td>
+      <td>上课</td>
+      <td>怎么一直在上课？</td>
+      <td>………………</td>
+      <td>下课，跑操，放学</td>
+      <td>吃饭，肝作业</td>
+      <td>肝作业</td>
+      <td>你的作业没写完</td>
+      <td>我的作业没写完</td>
+      <td>原来你也没写完</td>
+      <td>手速快的应该已经写完了</td>
+      <td>你的作业写不完</td>
+      <td>不如我们交白卷</td>
+      <td>别肝了交不上的</td>
+      <td>睡得像死猪（不清真）一样</td>
+    </tr>
+  </tbody>
+</table>
 
-<ul>
-  <li>在U盘上创建一个文件夹，用来存放 Firefox 数据。或者，你也可以把你主文件夹里的<code class="highlighter-rouge">.mozilla</code>复制过去。</li>
-  <li>执行<code class="highlighter-rouge">firefox --profile 文件夹名</code>。你可以写一个脚本来做到一键启动。</li>
-  <li>如果你想创建一个专用的 Firefox 配置文件，也可以这么做！</li>
-  <li>或者你不想在每台公用电脑系统上都安装 Firefox ，你可以从 Mozilla Firefox 官网下载二进制文件，放在U盘里运行。看下面！</li>
-</ul>
-
-<h1 id="真正做到随身携带的-firefox">真正做到随身携带的 Firefox</h1>
-
-<ul>
-  <li>从 Mozilla 下载 Firefox 二进制文件(推荐使用ESR版本)，放在一个目录下，比如firefox/。</li>
-  <li>在这个目录外面再套一个目录，并创建一个数据目录，如mozilla/。</li>
-  <li>在目录中执行<code class="highlighter-rouge">firefox/firefox --profile mozilla/</code>。也可以写成脚本。</li>
-</ul>
-
-<h1 id="完全无痕的firefox">完全无痕的Firefox</h1>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-<span class="nb">mkdir </span>firefox-profile-dir
-firefox <span class="nt">--profile</span> firefox-profile-dir
-<span class="nb">rm</span> <span class="nt">-rf</span> firefox-profile-dir
-</code></pre></div></div>
+<p>如果你发现你的日程和上表离奇的相似，说明你的学校很正常。</p>
 
   </div>
 

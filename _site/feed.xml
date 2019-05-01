@@ -2,19 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ratizux</title>
-    <description>Blockcity使用Jekyll搭建的博客&lt;br/&gt;使用Creative Commons&lt;br/&gt;请阅读一下关于页面
+    <description>Blockcity 使用 Jekyll 搭建的博客&lt;br/&gt;使用 Creative Commons&lt;br/&gt;请阅读一下关于页面
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Mar 2019 00:44:43 +0800</pubDate>
-    <lastBuildDate>Mon, 11 Mar 2019 00:44:43 +0800</lastBuildDate>
+    <pubDate>Wed, 01 May 2019 23:56:36 +0800</pubDate>
+    <lastBuildDate>Wed, 01 May 2019 23:56:36 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>观点|不友好的技术社区</title>
-        <description>&lt;p&gt;不针对任何一个社区，仅在此表达本人看法。&lt;/p&gt;
+        <title>观点|适合桌面的发行版</title>
+        <description>&lt;p&gt;这个页面刚写到一半，但是作者实在太懒了。&lt;/p&gt;
 
-&lt;p&gt;“为什么这个社区如此不友好？”&lt;/p&gt;
+&lt;h1 id=&quot;kde-neon&quot;&gt;KDE neon&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://neon.kde.org/&quot;&gt;KDE neon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;KDE出品，必属精品。基于 Ubuntu ，比 Ubuntu 稳定。&lt;/p&gt;
+
+&lt;h1 id=&quot;arch-linux&quot;&gt;Arch Linux&lt;/h1&gt;
+
+&lt;p&gt;Keep it simple, stupid. &lt;a href=&quot;http://www.archlinux.org/&quot;&gt;Arch Linux&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;注意，使用 Arch Linux 需要一定的 Linux 操作经验。&lt;/p&gt;
+
+&lt;h1 id=&quot;opensuse&quot;&gt;openSUSE&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;稳定，安全。使用 rpm ，但不基于 RHRL 。&lt;/p&gt;
+
+&lt;h1 id=&quot;solus&quot;&gt;Solus&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getsol.us/&quot;&gt;Solus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;对新手&lt;/p&gt;
+
+&lt;h1 id=&quot;fedora&quot;&gt;Fedora&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;elementary-os&quot;&gt;elementary OS&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://elementary.io/&quot;&gt;elementary OS&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;manjaro-linux&quot;&gt;Manjaro Linux&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://manjaro.org/&quot;&gt;Manjaro Linux&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 May 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/05/01/1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/01/1.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>摸鱼 | 中国学生的日程</title>
+        <description>&lt;p&gt;仅供娱乐，请勿认真对待。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;5:00 AM&lt;/th&gt;
+      &lt;th&gt;6:00 AM&lt;/th&gt;
+      &lt;th&gt;7:00 AM&lt;/th&gt;
+      &lt;th&gt;8:00 AM&lt;/th&gt;
+      &lt;th&gt;9:00 AM&lt;/th&gt;
+      &lt;th&gt;10:00 AM&lt;/th&gt;
+      &lt;th&gt;11:00 AM&lt;/th&gt;
+      &lt;th&gt;12:00 AM&lt;/th&gt;
+      &lt;th&gt;1:00 PM&lt;/th&gt;
+      &lt;th&gt;2:00 PM&lt;/th&gt;
+      &lt;th&gt;3:00 PM&lt;/th&gt;
+      &lt;th&gt;4:00 PM&lt;/th&gt;
+      &lt;th&gt;5:00 PM&lt;/th&gt;
+      &lt;th&gt;6:00 PM&lt;/th&gt;
+      &lt;th&gt;7:00 PM&lt;/th&gt;
+      &lt;th&gt;8:00 PM&lt;/th&gt;
+      &lt;th&gt;9:00 PM&lt;/th&gt;
+      &lt;th&gt;10:00 PM&lt;/th&gt;
+      &lt;th&gt;11:00 PM&lt;/th&gt;
+      &lt;th&gt;12:00 PM&lt;/th&gt;
+      &lt;th&gt;1:00 AM&lt;/th&gt;
+      &lt;th&gt;2:00 AM&lt;/th&gt;
+      &lt;th&gt;3:00 AM&lt;/th&gt;
+      &lt;th&gt;4:00 AM&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;睡觉&lt;/td&gt;
+      &lt;td&gt;起床&lt;/td&gt;
+      &lt;td&gt;早读&lt;/td&gt;
+      &lt;td&gt;上课&lt;/td&gt;
+      &lt;td&gt;上课&lt;/td&gt;
+      &lt;td&gt;仍然在上课&lt;/td&gt;
+      &lt;td&gt;还是在上课&lt;/td&gt;
+      &lt;td&gt;放学，吃饭&lt;/td&gt;
+      &lt;td&gt;午休&lt;/td&gt;
+      &lt;td&gt;上课&lt;/td&gt;
+      &lt;td&gt;上课&lt;/td&gt;
+      &lt;td&gt;怎么一直在上课？&lt;/td&gt;
+      &lt;td&gt;………………&lt;/td&gt;
+      &lt;td&gt;下课，跑操，放学&lt;/td&gt;
+      &lt;td&gt;吃饭，肝作业&lt;/td&gt;
+      &lt;td&gt;肝作业&lt;/td&gt;
+      &lt;td&gt;你的作业没写完&lt;/td&gt;
+      &lt;td&gt;我的作业没写完&lt;/td&gt;
+      &lt;td&gt;原来你也没写完&lt;/td&gt;
+      &lt;td&gt;手速快的应该已经写完了&lt;/td&gt;
+      &lt;td&gt;你的作业写不完&lt;/td&gt;
+      &lt;td&gt;不如我们交白卷&lt;/td&gt;
+      &lt;td&gt;别肝了交不上的&lt;/td&gt;
+      &lt;td&gt;睡得像死猪（不清真）一样&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;如果你发现你的日程和上表离奇的相似，说明你的学校很正常。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Mar 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/03/28/1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/28/1.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>观点 | 不友好的技术社区</title>
+        <description>&lt;p&gt;不针对任何一个社区，仅在此表达本人看法。&lt;/p&gt;
 
 &lt;h1 id=&quot;歧视新手&quot;&gt;歧视新手&lt;/h1&gt;
 
@@ -26,21 +143,21 @@
 
 &lt;h1 id=&quot;偏见与狂热者&quot;&gt;偏见与狂热者&lt;/h1&gt;
 
-&lt;p&gt;“Arch是最好的发行版”&lt;/p&gt;
+&lt;p&gt;“Arch 是最好的发行版”&lt;/p&gt;
 
-&lt;p&gt;对有些人来说Arch确实很适合他们。但我认为发行版没有好坏之分，只有适不适合之分。&lt;/p&gt;
+&lt;p&gt;对有些人来说 Arch 确实很适合他们。但我认为发行版没有好坏之分，只有适不适合之分。&lt;/p&gt;
 
-&lt;p&gt;“Debian是最古老的发行版”&lt;/p&gt;
+&lt;p&gt;“Debian 是最古老的发行版”&lt;/p&gt;
 
-&lt;p&gt;真的是这样吗？看一下Linux发行版时间线就能一眼发现问题。&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Linux_Distribution_Timeline.svg/2820px-Linux_Distribution_Timeline.svg.png&quot;&gt;链接在这里&lt;/a&gt;（需科学上网）。&lt;/p&gt;
+&lt;p&gt;真的是这样吗？看一下 Linux 发行版时间线就能一眼发现问题。&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Linux_Distribution_Timeline.svg/2820px-Linux_Distribution_Timeline.svg.png&quot;&gt;链接在这里&lt;/a&gt;（需科学上网）。&lt;/p&gt;
 
-&lt;p&gt;“APT是最好用的包管理器”&lt;/p&gt;
+&lt;p&gt;“APT 是最好用的包管理器”&lt;/p&gt;
 
-&lt;p&gt;你好，zypper也许不是最好的包管理器，但请用它和APT比较一下。你会知道哪个更好的。&lt;/p&gt;
+&lt;p&gt;zypper 也许不是最好的包管理器，但和 APT 比较一下，你就会知道哪个更好。&lt;/p&gt;
 
 &lt;h1 id=&quot;滥用权力&quot;&gt;滥用权力&lt;/h1&gt;
 
-&lt;p&gt;“滥权”。还有些网友专为滥权制作了一组Telegram贴纸。有时候你说了几句管理员不喜欢的话，也没有违反社区规定。甚至有时候是因为管理员对你的嫉妒，你就被封禁了。&lt;/p&gt;
+&lt;p&gt;“滥权”。还有些网友专为滥权制作了一组 Telegram 贴纸。有时候你说了几句管理员不喜欢的话，也没有违反社区规定。甚至有时候是因为管理员对你的嫉妒，你就被封禁了。&lt;/p&gt;
 
 &lt;p&gt;感觉怎么样？&lt;/p&gt;
 
@@ -50,9 +167,9 @@
 
 &lt;p&gt;我认为好的社区，不应存在以上行为————至少可以不影响正常交流。&lt;/p&gt;
 
-&lt;p&gt;例如openSUSE和Gentoo社区。可惜这两个发行版都并不属于主流。&lt;/p&gt;
+&lt;p&gt;例如 openSUSE 和 Gentoo 社区。可惜这两个发行版都并不属于主流。&lt;/p&gt;
 </description>
-        <pubDate>Sat, 09 Mar 2019 17:46:03 +0800</pubDate>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/03/09/1.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/03/09/1.html</guid>
         
@@ -60,10 +177,10 @@
       </item>
     
       <item>
-        <title>分享|Pikayi的一些照片</title>
-        <description>&lt;p&gt;摄影爱好者Pikayi拍摄的一些照片。你可以订阅他的Telegram频道:&lt;a href=&quot;https://t.me/mofa404&quot;&gt;某不科学的404膜法小恐龙&lt;/a&gt;。&lt;/p&gt;
+        <title>分享 | Pikayi 的一些照片</title>
+        <description>&lt;p&gt;摄影爱好者 Pikayi 拍摄的一些照片。你可以订阅他的 Telegram 频道:&lt;a href=&quot;https://t.me/mofa404&quot;&gt;某不科学的404膜法小恐龙&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;使用CC BY-SA 4.0 。图片已经过压缩处理，你可以点击图片下方的链接下载原图&lt;/p&gt;
+&lt;p&gt;使用 CC BY-SA 4.0 。图片已经过压缩处理，你可以点击图片下方的链接下载原图&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/res/1.jpeg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
@@ -117,7 +234,7 @@
 
 &lt;p&gt;&lt;a href=&quot;http://localhost:4000/res/LRM_EXPORT_693774263099512_20190220_001821096.jpeg&quot;&gt;原图&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 02 Mar 2019 20:10:54 +0800</pubDate>
+        <pubDate>Sat, 02 Mar 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/03/02/1.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/03/02/1.html</guid>
         
@@ -125,20 +242,35 @@
       </item>
     
       <item>
-        <title>笔记|随身携带Mozilla Firefox</title>
-        <description>&lt;p&gt;Firefox用户数据的同步太麻烦，或是太慢了？&lt;/p&gt;
+        <title>笔记 | 指定 Mozilla Firefox 的数据目录</title>
+        <description>&lt;p&gt;Mozilla Firefox 提供了指定数据目录的功能。看似不起眼，但你可以通过这个功能实现很多新玩法。&lt;/p&gt;
 
-&lt;p&gt;那么把浏览器数据放在U盘上怎么样？&lt;/p&gt;
-
-&lt;h1 id=&quot;实际上非常简单&quot;&gt;实际上非常简单&lt;/h1&gt;
+&lt;h1 id=&quot;随身携带-firefox&quot;&gt;随身携带 Firefox&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;在U盘上创建一个文件夹，用来存放Firefox数据。或者，你也可以把你主文件夹里的&lt;code class=&quot;highlighter-rouge&quot;&gt;.mozilla&lt;/code&gt;复制过去。&lt;/li&gt;
+  &lt;li&gt;在U盘上创建一个文件夹，用来存放 Firefox 数据。或者，你也可以把你主文件夹里的&lt;code class=&quot;highlighter-rouge&quot;&gt;.mozilla&lt;/code&gt;复制过去。&lt;/li&gt;
   &lt;li&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;firefox --profile 文件夹名&lt;/code&gt;。你可以写一个脚本来做到一键启动。&lt;/li&gt;
-  &lt;li&gt;如果你不想在每台公用电脑系统上都安装Firefox，你可以从Mozilla Firefox官网下载二进制文件，放在U盘里运行。当然，这对U盘的性能有一定要求。&lt;/li&gt;
+  &lt;li&gt;如果你想创建一个专用的 Firefox 配置文件，也可以这么做！&lt;/li&gt;
+  &lt;li&gt;或者你不想在每台公用电脑系统上都安装 Firefox ，你可以从 Mozilla Firefox 官网下载二进制文件，放在U盘里运行。看下面！&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h1 id=&quot;真正做到随身携带的-firefox&quot;&gt;真正做到随身携带的 Firefox&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;从 Mozilla 下载 Firefox 二进制文件(推荐使用ESR版本)，放在一个目录下，比如firefox/。&lt;/li&gt;
+  &lt;li&gt;在这个目录外面再套一个目录，并创建一个数据目录，如mozilla/。&lt;/li&gt;
+  &lt;li&gt;在目录中执行&lt;code class=&quot;highlighter-rouge&quot;&gt;firefox/firefox --profile mozilla/&lt;/code&gt;。也可以写成脚本。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;完全无痕的firefox&quot;&gt;完全无痕的Firefox&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;firefox-profile-dir
+firefox &lt;span class=&quot;nt&quot;&gt;--profile&lt;/span&gt; firefox-profile-dir
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; firefox-profile-dir
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Thu, 28 Feb 2019 23:41:11 +0800</pubDate>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/02/28/1.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/02/28/1.html</guid>
         
@@ -146,34 +278,34 @@
       </item>
     
       <item>
-        <title>笔记|LXQt的简单美化</title>
-        <description>&lt;p&gt;用LXQt+OpenBox让你的古董电脑起飞吧！(还是不行？试试Fluxbox。)&lt;/p&gt;
+        <title>笔记 | LXQt 的简单美化</title>
+        <description>&lt;p&gt;用 LXQt+OpenBox 可以让你的古董电脑起飞(还是不行？试试IceWM。)&lt;/p&gt;
 
-&lt;p&gt;LXQt的默认预设并不美观。但如果你的电脑性能不足以使用MATE DE，你可能需要调教一下LXQt:&lt;/p&gt;
+&lt;p&gt;LXQt 的默认预设并不美观。但如果你的电脑性能不足以使用 MATE DE 而不得不使用 LXQt ，你可能可以调教一下LXQt:&lt;/p&gt;
 
-&lt;h1 id=&quot;安装主题-如果你在使用lubuntu-1810可以跳过这一步&quot;&gt;安装主题 （如果你在使用Lubuntu 18.10，可以跳过这一步。）&lt;/h1&gt;
+&lt;h1 id=&quot;安装主题-如果你在使用-lubuntu-1810可以跳过这一步&quot;&gt;安装主题 （如果你在使用 Lubuntu 18.10，可以跳过这一步。）&lt;/h1&gt;
 
 &lt;p&gt;在&lt;a href=&quot;http://localhost:4000/res/theme.tar.xz&quot;&gt;此处&lt;/a&gt;下载笔者打包好的所需文件。&lt;/p&gt;
 
-&lt;p&gt;OpenBox主题:Lubuntu Arc，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/themes/&lt;/code&gt;目录下。&lt;/p&gt;
+&lt;p&gt;OpenBox 主题: Lubuntu Arc ，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/themes/&lt;/code&gt;目录下。&lt;/p&gt;
 
-&lt;p&gt;LXQt主题:Ambiance，LXQt预置。&lt;/p&gt;
+&lt;p&gt;LXQt 主题: Ambiance ， LXQt 预置。&lt;/p&gt;
 
-&lt;p&gt;图标包:Papirus-Dark，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/&lt;/code&gt;目录下。&lt;/p&gt;
+&lt;p&gt;图标包: Papirus-Dark ，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/&lt;/code&gt;目录下。&lt;/p&gt;
 
-&lt;p&gt;字体:ubuntu，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/fonts/truetype/&lt;/code&gt;目录下。&lt;/p&gt;
+&lt;p&gt;字体: ubuntu ，放在&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/fonts/truetype/&lt;/code&gt;目录下。&lt;/p&gt;
 
 &lt;h1 id=&quot;配置&quot;&gt;配置&lt;/h1&gt;
 
-&lt;p&gt;打开LXQt配置中心，将OpenBox主题，LXQt主题，图标包和字体设置好。&lt;/p&gt;
+&lt;p&gt;打开 LXQt 配置中心，将 OpenBox 主题， LXQt 主题，图标包和字体设置好。&lt;/p&gt;
 
-&lt;p&gt;右键面板上左下角的应用程序菜单，选择&lt;code class=&quot;highlighter-rouge&quot;&gt;配置&quot;程序菜单&quot;&lt;/code&gt;，将图标设置为发行版图标(例如Ubuntu为&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/Papirus/64x64/apps/distributor-logo-ubuntu.svg&lt;/code&gt;)，文字设为发行版名称，可以让应用程序菜单看上去更美观。&lt;/p&gt;
+&lt;p&gt;右键面板上左下角的应用程序菜单，选择&lt;code class=&quot;highlighter-rouge&quot;&gt;配置&quot;程序菜单&quot;&lt;/code&gt;，将图标设置为发行版图标(例如 Ubuntu 为&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/Papirus/64x64/apps/distributor-logo-ubuntu.svg&lt;/code&gt;)，文字设为发行版名称，可以让应用程序菜单看上去更美观。&lt;/p&gt;
 
-&lt;p&gt;修改一个合适的壁纸让你的桌面更美观。例如Lubuntu的默认壁纸加上Ubuntu图标:&lt;a href=&quot;http://localhost:4000/res/ubuntu.png&quot;&gt;这里&lt;/a&gt;是一个例子。&lt;/p&gt;
+&lt;p&gt;修改一个合适的壁纸让你的桌面更美观。例如 Lubuntu 的默认壁纸加上 Ubuntu 图标:&lt;a href=&quot;http://localhost:4000/res/ubuntu.png&quot;&gt;这里&lt;/a&gt;是一个例子。&lt;/p&gt;
 
 &lt;h1 id=&quot;休眠快捷方式&quot;&gt;休眠快捷方式&lt;/h1&gt;
 
-&lt;p&gt;如果LXQt的电源管理不好用，你又希望用休眠代替关机来加快恢复速度，你可以这样做。&lt;/p&gt;
+&lt;p&gt;如果 LXQt 的电源管理不好用，你又希望用休眠代替关机来加快恢复速度，你可以这样做。&lt;/p&gt;
 
 &lt;p&gt;在一个目录(建议是你的主目录)放置一个内容为&lt;code class=&quot;highlighter-rouge&quot;&gt;echo 你的密码|sudo -S systemctl hibernate&lt;/code&gt;的脚本，给予可执行权限。&lt;/p&gt;
 
@@ -190,7 +322,7 @@ Type=Application
 
 &lt;p&gt;右键，勾选&lt;code class=&quot;highlighter-rouge&quot;&gt;Trust this executeable&lt;/code&gt;。你就可以通过快捷方式快速启动休眠了。&lt;/p&gt;
 </description>
-        <pubDate>Mon, 25 Feb 2019 01:55:15 +0800</pubDate>
+        <pubDate>Mon, 25 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/02/25/1.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/02/25/1.html</guid>
         
@@ -198,16 +330,26 @@ Type=Application
       </item>
     
       <item>
-        <title>分享|Termux让你在Android手机上简单地使用终端</title>
-        <description>&lt;p&gt;你是GNU/Linux用户吗？试试在Andoroid手机上使用Termux来让你找回”家的温暖”。&lt;/p&gt;
+        <title>分享 | Termux 让你在 Android 手机上简单地使用终端</title>
+        <description>&lt;p&gt;你是 GNU/Linux 用户吗？试试在 Andoroid 手机上使用 Termux 来让你找回”家的温暖”。&lt;/p&gt;
 
-&lt;p&gt;(Termux也不能让你满足？你可以试一下用Linux Deploy在Android手机上管理chroot容器。)&lt;/p&gt;
+&lt;p&gt;(或者，你也可以试一下用 Linux Deploy 在 Android 手机上管理 chroot 容器。)&lt;/p&gt;
 
-&lt;p&gt;你可以在&lt;a href=&quot;https://f-droid.org/packages/com.termux/&quot;&gt;这里&lt;/a&gt;下载Termux。完成后保持网络连接并打开Termux，等待安装完成。&lt;/p&gt;
+&lt;p&gt;你可以在 &lt;a href=&quot;https://f-droid.org/packages/com.termux/&quot;&gt;F-Droid 的这个页面&lt;/a&gt;下载 Termux 。完成后保持网络通畅并打开 Termux ，等待安装完成。目前，你无需科学上网就能连接 Termux 的官方软件源。如果不行，请试试使用代理。&lt;/p&gt;
 
-&lt;h1 id=&quot;安装vim&quot;&gt;安装Vim&lt;/h1&gt;
+&lt;h1 id=&quot;新手上路&quot;&gt;新手上路&lt;/h1&gt;
 
-&lt;p&gt;Vim是终端下的一款强大的编辑器。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;apt install vim -y&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;pkg in vim -y&lt;/code&gt;来安装Vim。&lt;/p&gt;
+&lt;p&gt;使用 Termux 时，你会发现很多操作都与电脑上的相似。即使对于新手，它也不是太难上手。&lt;/p&gt;
+
+&lt;p&gt;如果需要，你可以看看 Linux 终端入门之类的教程。&lt;/p&gt;
+
+&lt;h1 id=&quot;使用-android-上的资源&quot;&gt;使用 Android 上的资源&lt;/h1&gt;
+
+&lt;p&gt;Termux 提供了一个指令：&lt;code class=&quot;highlighter-rouge&quot;&gt;termux-setup-storage&lt;/code&gt;。执行后，你就能在主目录发现一个链接到内置存储的文件。&lt;/p&gt;
+
+&lt;h1 id=&quot;安装-vim&quot;&gt;安装 Vim&lt;/h1&gt;
+
+&lt;p&gt;Vim 是终端下的一款强大的编辑器。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;apt install vim -y&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;pkg in vim -y&lt;/code&gt;来安装 Vim。&lt;/p&gt;
 
 &lt;h1 id=&quot;修改系统配置&quot;&gt;修改系统配置&lt;/h1&gt;
 
@@ -222,7 +364,7 @@ Type=Application
   &lt;li&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1='\$ '&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;PS1='&amp;gt; '&lt;/code&gt;以将提示符由&lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;改为&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;apt/&lt;/code&gt;：存放apt配置文件的目录。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;vim apt/sources.list&lt;/code&gt;来用Vim编辑软件源。如果你在中国大陆，你可以将软件源改为TUNA镜像站以达到加速的目的：&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;apt/&lt;/code&gt;：存放 apt 配置文件的目录。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;vim apt/sources.list&lt;/code&gt;来用 Vim 编辑软件源。如果你在中国大陆，你可以将软件源改为 TUNA 镜像站以达到加速的目的：&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;进入Vim后，右滑打开菜单并长按”KEYBOARD”键启用虚拟按键。&lt;/li&gt;
@@ -233,11 +375,11 @@ Type=Application
 
 &lt;p&gt;修改完毕后，建议执行&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;切换到主目录以确保你不会把文件放到错误的地方。&lt;/p&gt;
 
-&lt;h1 id=&quot;安装clang编译器并编译c程序&quot;&gt;安装Clang编译器并编译C++程序&lt;/h1&gt;
+&lt;h1 id=&quot;安装-clang-编译器并编译-c-程序&quot;&gt;安装 Clang 编译器并编译 C++ 程序&lt;/h1&gt;
 
-&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;apt install clang&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;pkg in clang&lt;/code&gt;来安装Clang。&lt;/p&gt;
+&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;apt install clang&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;pkg in clang&lt;/code&gt;来安装 Clang 。&lt;/p&gt;
 
-&lt;p&gt;确保已经打开虚拟按键(右滑打开菜单并长按”KEYBOARD”键启用)或连接物理键盘，否则可能无法退出Vim。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;vim hello.cpp&lt;/code&gt;，按I进入插入模式，输入以下代码：&lt;/p&gt;
+&lt;p&gt;确保已经打开虚拟按键(右滑打开菜单并长按”KEYBOARD”键启用)或连接物理键盘，否则可能无法退出 Vim 。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;vim hello.cpp&lt;/code&gt;，按 I 进入插入模式，输入以下代码：&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include&amp;lt;iostream&amp;gt;
 using namespace std;
@@ -248,10 +390,10 @@ return 0;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;完成后，按ESC退出插入模式。输入&lt;code class=&quot;highlighter-rouge&quot;&gt;:x&lt;/code&gt;保存并退出，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;clang -o hello hello.cpp&lt;/code&gt;并执行&lt;code class=&quot;highlighter-rouge&quot;&gt;./hello&lt;/code&gt;，程序应该会输出&lt;code class=&quot;highlighter-rouge&quot;&gt;Hello, world!&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;完成后，按 ESC 退出插入模式。输入&lt;code class=&quot;highlighter-rouge&quot;&gt;:x&lt;/code&gt;保存并退出，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;clang -o hello hello.cpp&lt;/code&gt;并执行&lt;code class=&quot;highlighter-rouge&quot;&gt;./hello&lt;/code&gt;，程序应该会输出&lt;code class=&quot;highlighter-rouge&quot;&gt;Hello, world!&lt;/code&gt;。这说明你的 Clang 编译器正常工作。&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 22 Feb 2019 19:07:59 +0800</pubDate>
+        <pubDate>Fri, 22 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/02/22/1.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/02/22/1.html</guid>
         
@@ -259,39 +401,41 @@ return 0;
       </item>
     
       <item>
-        <title>教程|用Docker容器折腾Linux</title>
-        <description>&lt;p&gt;如果你是一位刚开始使用Linux的初学者，你可能需要上机熟悉下操作————比如安装LNMP。但拿自己的主力机”做实验”未免代价太大，使用VPS又会产生很大的开销。你可能会选择使用VM，但你也可以使用Docker容器，一种更轻量快速的方式。&lt;/p&gt;
+        <title>教程 | 用 Docker 容器折腾 Linux</title>
+        <description>&lt;p&gt;如果你是一位刚开始使用 Linux 的初学者，你可能需要上机熟悉下操作————比如安装 LNMP 。但拿自己的主力机”做实验”未免代价太大，使用 VPS 又会产生较大的开销。你可能会选择使用 VM ，但你也可以使用 Docker 容器，一种更轻量快速的方式。&lt;/p&gt;
 
-&lt;p&gt;使用Docker容器的优点:&lt;/p&gt;
+&lt;h1 id=&quot;使用-docker-容器的优点&quot;&gt;使用 Docker 容器的优点&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;与主系统共用一个内核，相对VM而言更快速，不会像VM那样明显的拖慢你的系统。&lt;/li&gt;
-  &lt;li&gt;大量镜像可供下载，你不再需要把时间浪费在安装系统上。(当然，你不能在Docker上练习操作系统的安装，因为镜像是开箱即用的。除非你做得到！)&lt;/li&gt;
+  &lt;li&gt;与主系统共用一个内核，相对 VM 而言更快速，不会像 VM 那样明显的拖慢你的系统。&lt;/li&gt;
+  &lt;li&gt;大量镜像可供下载，你不再需要把时间浪费在安装系统上。(当然，你不能在 Docker 上练习操作系统的安装，因为镜像是开箱即用的。除非你做得到！)&lt;/li&gt;
   &lt;li&gt;便于备份。如果你失败了就恢复重来。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;安装opensuse容器&quot;&gt;安装openSUSE容器&lt;/h1&gt;
+&lt;h1 id=&quot;安装-opensuse-容器&quot;&gt;安装 openSUSE 容器&lt;/h1&gt;
 
-&lt;p&gt;确保docker已安装并在运行(如果你使用systemd作为init系统(大部分发行版都是这样)，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo systemctl start docker&lt;/code&gt;启动docker。)&lt;/p&gt;
+&lt;p&gt;确保 Docker 已安装并在运行(如果你使用 systemd 作为 init 系统(大部分发行版都是这样)，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo systemctl start docker&lt;/code&gt;启动 Docker 。)&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker pull opensuse&lt;/code&gt;，下载openSUSE容器镜像。下载完成后执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker run -dit --name container opensuse /bin/bash&lt;/code&gt;创建并启动openSUSE容器。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker pull opensuse&lt;/code&gt;，下载 openSUSE 容器镜像。下载完成后执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker run -dit --name container opensuse /bin/bash&lt;/code&gt;创建并启动 openSUSE 容器。&lt;/p&gt;
 
-&lt;p&gt;通俗的讲，&lt;code class=&quot;highlighter-rouge&quot;&gt;-dit&lt;/code&gt;让容器后台运行，&lt;code class=&quot;highlighter-rouge&quot;&gt;--name&lt;/code&gt;参数决定容器的命名。&lt;code class=&quot;highlighter-rouge&quot;&gt;opensuse&lt;/code&gt;是镜像的名字，&lt;code class=&quot;highlighter-rouge&quot;&gt;/bin/bash&lt;/code&gt;命令让Bash运行。&lt;/p&gt;
+&lt;p&gt;通俗的讲，&lt;code class=&quot;highlighter-rouge&quot;&gt;-dit&lt;/code&gt;让容器后台运行，&lt;code class=&quot;highlighter-rouge&quot;&gt;--name&lt;/code&gt;参数决定容器的命名。&lt;code class=&quot;highlighter-rouge&quot;&gt;opensuse&lt;/code&gt;是镜像的名字，&lt;code class=&quot;highlighter-rouge&quot;&gt;/bin/bash&lt;/code&gt;命令让 Bash 运行。&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker attach container&lt;/code&gt;来连接容器的虚拟终端。&lt;code class=&quot;highlighter-rouge&quot;&gt;zypper ref&lt;/code&gt;刷新软件源，&lt;code class=&quot;highlighter-rouge&quot;&gt;zypper in 包名&lt;/code&gt;来安装软件包，&lt;code class=&quot;highlighter-rouge&quot;&gt;zypper --help&lt;/code&gt;查看帮助。&lt;/p&gt;
 
 &lt;h1 id=&quot;安装软件&quot;&gt;安装软件&lt;/h1&gt;
 
-&lt;p&gt;Docker镜像一般较精简，所以你要自行安装你需要的软件包。这里是一些建议:&lt;/p&gt;
+&lt;p&gt;Docker 镜像一般较精简，所以你要自行安装你需要的软件包。这里是一些建议:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command-not-found&lt;/code&gt;帮助你找到能提供指令的软件包。&lt;code class=&quot;highlighter-rouge&quot;&gt;cnf 命令&lt;/code&gt;来使用，例如&lt;code class=&quot;highlighter-rouge&quot;&gt;cnf ssh&lt;/code&gt;。&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;Vim是一款优秀的终端下的编辑器。当然建议先看看Vim的教程，不然你可能连怎么退出Vim都不知道！&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;Vim 是一款优秀的终端下的编辑器。当然建议先看看 Vim 的教程，不然你可能连怎么退出 Vim 都不知道！&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;w3m&lt;/code&gt;命令行下的浏览器，有时候还挺有用的。虽然看上去很蠢！&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;screenfetch&lt;/code&gt;快速了解你的容器参数。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt;来退出虚拟终端。如果你没有运行别的东西，容器应该会自动关闭。&lt;/p&gt;
+&lt;h1 id=&quot;基本管理&quot;&gt;基本管理&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt;来退出虚拟终端。因为终端的进程号为1，关闭终端后容器会自动关闭。&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker ps&lt;/code&gt;列出正在运行的容器&lt;/p&gt;
 
@@ -305,9 +449,9 @@ return 0;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo docker rm 容器名&lt;/code&gt;删除容器&lt;/p&gt;
 
-&lt;p&gt;如果openSUSE有问题，你可以参考&lt;a href=&quot;https://zh.opensuse.org&quot;&gt;openSUSE Wiki&lt;/a&gt;或者通过&lt;a href=&quot;https://t.me/opensuse_cn&quot;&gt;链接&lt;/a&gt;加入openSUSE的官方群组。如果你有能力，那么&lt;a href=&quot;https://wiki.archlinux.org&quot;&gt;ArchWiki&lt;/a&gt;也可以。&lt;/p&gt;
+&lt;p&gt;如果 openSUSE 有问题，你可以参考 &lt;a href=&quot;https://zh.opensuse.org&quot;&gt;openSUSE Wiki&lt;/a&gt; 或者通过&lt;a href=&quot;https://t.me/opensuse_cn&quot;&gt;链接&lt;/a&gt;加入 openSUSE 的官方群组。如果你有能力，参考 &lt;a href=&quot;https://wiki.archlinux.org&quot;&gt;ArchWiki&lt;/a&gt; 也可以。&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Feb 2019 02:01:28 +0800</pubDate>
+        <pubDate>Thu, 21 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/02/21/1.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/02/21/1.html</guid>
         
@@ -315,26 +459,26 @@ return 0;
       </item>
     
       <item>
-        <title>教程|搭建使用GitHub Pages的Jekyll博客</title>
-        <description>&lt;p&gt;想搭建自己的博客，却没有资金使用昂贵的VPS？你可以用GitHub Pages作为免费空间并搭建博客。&lt;/p&gt;
+        <title>教程 | 搭建使用 GitHub Pages 的 Jekyll 博客</title>
+        <description>&lt;p&gt;想搭建自己的博客，却没有资金使用昂贵的 VPS ？你可以用 GitHub Pages 作为免费空间并搭建博客。&lt;/p&gt;
 
-&lt;p&gt;以下内容假设你在使用Ubuntu 18.10或openSUSE Tumbleweed(其他发行版类似)，并且已经拥有一个GitHub帐号。&lt;/p&gt;
+&lt;p&gt;以下内容假设你在使用 Ubuntu 18.10 或 openSUSE Tumbleweed (其他发行版类似)，并且已经拥有一个 GitHub 帐号。&lt;/p&gt;
 
-&lt;p&gt;首先，前往&lt;a href=&quot;https://github.com/&quot;&gt;https://github.com/&lt;/a&gt;，新建一个名为”你的用户名.github.io”的库。&lt;/p&gt;
+&lt;p&gt;首先，前往 &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; ，新建一个名为”你的用户名.github.io”的库。&lt;/p&gt;
 
-&lt;h1 id=&quot;安装git和jekyll&quot;&gt;安装Git和Jekyll&lt;/h1&gt;
+&lt;h1 id=&quot;安装-git-和-jekyll&quot;&gt;安装 Git 和 Jekyll&lt;/h1&gt;
 
-&lt;p&gt;如果你以前没有安装过Git，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install git&lt;/code&gt;来安装命令行Git。&lt;/p&gt;
+&lt;p&gt;如果你以前没有安装过 Git ，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install git&lt;/code&gt;来安装命令行 Git 。&lt;/p&gt;
 
-&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/你的用户名/你的用户名.github.io&lt;/code&gt;然后，&lt;code class=&quot;highlighter-rouge&quot;&gt;cd '你的用户名.github.io'&lt;/code&gt;来进入你的GitHub库。&lt;/p&gt;
+&lt;p&gt;执行&lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/你的用户名/你的用户名.github.io&lt;/code&gt;然后，&lt;code class=&quot;highlighter-rouge&quot;&gt;cd '你的用户名.github.io'&lt;/code&gt;来进入你的 GitHub 库。&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install jekyll&lt;/code&gt;(Ubuntu)或&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo zypper in ruby2.6-rubygem-jekyll&lt;/code&gt;(openSUSE)来安装你要的Jekyll。为了方便，我们先&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;退出目录，然后&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new site &amp;amp;&amp;amp; cd site &amp;amp;&amp;amp; jekyll serve -w&lt;/code&gt;。如果你现在打开浏览器并进入&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;，你就能看到你的静态博客了。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install jekyll&lt;/code&gt;(Ubuntu)或&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo zypper in ruby2.6-rubygem-jekyll&lt;/code&gt;(openSUSE)来安装 Jekyll 。为了方便，我们先&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;退出目录，然后&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new site &amp;amp;&amp;amp; cd site &amp;amp;&amp;amp; jekyll serve -w&lt;/code&gt;。如果你现在打开浏览器并进入&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;，你就能看到你的静态博客了。&lt;/p&gt;
 
 &lt;p&gt;先别急。回到终端，按Ctrl+C停止Jekyll，再执行&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;。此时如果你执行&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;应当可以同时看到”site”和”你的用户名.github.io”两个文件夹。执行&lt;code class=&quot;highlighter-rouge&quot;&gt;cp -r site/* 你的用户名.github.io/&lt;/code&gt;把site里的所有文件复制到GitHub本地库里。&lt;code class=&quot;highlighter-rouge&quot;&gt;cd 你的用户名.github.io &amp;amp;&amp;amp; jekyll serve -w&lt;/code&gt;，如果这时候&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;能正常访问，你就可以把site文件夹删了。&lt;/p&gt;
 
 &lt;h1 id=&quot;撰写文章&quot;&gt;撰写文章&lt;/h1&gt;
 
-&lt;p&gt;进入”_posts”文件夹，你所有的文章都在里面。这篇教程中我们使用Markdown语法来写文章。新建一个名为”年-月-日-标题.格式”的文章。假设这篇文章是在2019年2月18日用Markdown写的，那么就把它命名为”2019-02-18-1.md”。&lt;/p&gt;
+&lt;p&gt;进入”_posts”文件夹，你所有的文章都在里面。这篇教程中我们使用 Markdown 语法来写文章。新建一个名为”年-月-日-标题.格式”的文章。假设这篇文章是在2019年2月18日用 Markdown 写的，那么就把它命名为”2019-02-18-1.md”。&lt;/p&gt;
 
 &lt;p&gt;打开我们刚创建的文档，输入头信息。&lt;/p&gt;
 
@@ -345,11 +489,11 @@ date: 写这篇文章的时间。例如&quot;2019-02-18 21:31:16 +0800&quot;
 ---
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;获取当前时间的一个简便方法是在你的终端里执行&lt;code class=&quot;highlighter-rouge&quot;&gt;date +%F\ %T\ %z&lt;/code&gt;，然后把输出的时间粘贴到那里。&lt;/p&gt;
+&lt;p&gt;获取当前时间的一个简便方法是在你的终端里执行&lt;code class=&quot;highlighter-rouge&quot;&gt;date +%F\ %T\ %z&lt;/code&gt;，然后把输出的时间粘贴到那里。当然直接写年份-时间-日期或者省略不写（把日期写在文件名里）也不是不可以。&lt;/p&gt;
 
-&lt;p&gt;头信息下面是正文部分。如果你还不会写Markdown，建议你参考&lt;a href=&quot;http://www.markdown.cn/&quot;&gt;http://www.markdown.cn/&lt;/a&gt;。写完之后保存文件。现在你可以修改一下上级目录里的”_config.yml”，让它看起来像一个正常的博客。顺便看一下&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;中的变化是否令你满意。如果一切都如预期发展，你现在就可以关闭文本编辑器和浏览器，在终端按Ctrl+C关闭Jekyll，然后你就可以把改动提交到GitHub库了。&lt;/p&gt;
+&lt;p&gt;头信息下面是正文部分。如果你还不会写 Markdown ，建议你参考&lt;a href=&quot;http://www.markdown.cn/&quot;&gt;Markdown中文&lt;/a&gt;。写完之后保存文件。现在你可以修改一下上级目录里的”_config.yml”，让它看起来像一个正式的博客。顺便看一下&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;中的变化是否令你满意。如果一切都如预期发展，你现在就可以关闭文本编辑器和浏览器，在终端按Ctrl+C关闭Jekyll，然后你就可以把改动提交到GitHub库了。&lt;/p&gt;
 
-&lt;p&gt;关闭Jekyll，不要退出终端。现在你应该还在”你的用户名.github.io”文件夹里。接着执行以下命令:&lt;/p&gt;
+&lt;p&gt;关闭 Jekyll ，不要退出终端。现在你应该还在”你的用户名.github.io”文件夹里。接着执行以下命令:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add --all&lt;/code&gt;添加所有文件到本地库。&lt;/p&gt;
 
@@ -359,7 +503,7 @@ date: 写这篇文章的时间。例如&quot;2019-02-18 21:31:16 +0800&quot;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;提交信息&quot;&lt;/code&gt;添加提交信息。例如”新增了1篇文章”。&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt;并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt;并按照提示输入 GitHub 帐号和密码，将改动提交到远程 GitHub 库。&lt;/p&gt;
 
 &lt;p&gt;打开浏览器，进入”https://你的用户名.github.io”即可看到你的博客。&lt;/p&gt;
 
@@ -379,11 +523,11 @@ date: 写这篇文章的时间。例如&quot;2019-02-18 21:31:16 +0800&quot;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;提交信息&quot;&lt;/code&gt;添加提交信息。比如”新增了1篇文章”。&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt;并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt;并按照提示输入 GitHub 帐号和密码，将改动提交到远程 GitHub 库。&lt;/p&gt;
 
-&lt;p&gt;尽情享受Jekyll带来的便利吧！&lt;/p&gt;
+&lt;p&gt;尽情享受 Jekyll 带来的便利吧！&lt;/p&gt;
 </description>
-        <pubDate>Mon, 18 Feb 2019 21:31:16 +0800</pubDate>
+        <pubDate>Mon, 18 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/02/18/2.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/02/18/2.html</guid>
         
@@ -391,12 +535,12 @@ date: 写这篇文章的时间。例如&quot;2019-02-18 21:31:16 +0800&quot;
       </item>
     
       <item>
-        <title>笔记|Hello, world!</title>
-        <description>&lt;p&gt;使用Jekyll搭建的静态博客Ratizux.&lt;/p&gt;
+        <title>笔记 | Hello, world!</title>
+        <description>&lt;p&gt;使用 Jekyll 搭建的静态博客&lt;/p&gt;
 
-&lt;p&gt;你可以随时订阅我的Telegram频道&lt;a href=&quot;https://t.me/neblk&quot;&gt;https://t.me/neblk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;你可以随时订阅我的Telegram频道 &lt;a href=&quot;https://t.me/neblk&quot;&gt;NEBLK&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 18 Feb 2019 21:06:57 +0800</pubDate>
+        <pubDate>Mon, 18 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/02/18/1.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/02/18/1.html</guid>
         

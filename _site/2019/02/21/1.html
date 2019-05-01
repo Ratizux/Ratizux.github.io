@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>教程|用Docker容器折腾Linux</title>
-  <meta name="description" content="如果你是一位刚开始使用Linux的初学者，你可能需要上机熟悉下操作————比如安装LNMP。但拿自己的主力机”做实验”未免代价太大，使用VPS又会产生很大的开销。你可能会选择使用VM，但你也可以使用Docker容器，一种更轻量快速的方式。">
+  <title>教程 | 用 Docker 容器折腾 Linux</title>
+  <meta name="description" content="如果你是一位刚开始使用 Linux 的初学者，你可能需要上机熟悉下操作————比如安装 LNMP 。但拿自己的主力机”做实验”未免代价太大，使用 VPS 又会产生较大的开销。你可能会选择使用 VM ，但你也可以使用 Docker 容器，一种更轻量快速的方式。">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/2019/02/21/1.html">
@@ -57,43 +57,45 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">教程|用Docker容器折腾Linux</h1>
-    <p class="post-meta"><time datetime="2019-02-21T02:01:28+08:00" itemprop="datePublished">Feb 21, 2019</time></p>
+    <h1 class="post-title" itemprop="name headline">教程 | 用 Docker 容器折腾 Linux</h1>
+    <p class="post-meta"><time datetime="2019-02-21T00:00:00+08:00" itemprop="datePublished">Feb 21, 2019</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>如果你是一位刚开始使用Linux的初学者，你可能需要上机熟悉下操作————比如安装LNMP。但拿自己的主力机”做实验”未免代价太大，使用VPS又会产生很大的开销。你可能会选择使用VM，但你也可以使用Docker容器，一种更轻量快速的方式。</p>
+    <p>如果你是一位刚开始使用 Linux 的初学者，你可能需要上机熟悉下操作————比如安装 LNMP 。但拿自己的主力机”做实验”未免代价太大，使用 VPS 又会产生较大的开销。你可能会选择使用 VM ，但你也可以使用 Docker 容器，一种更轻量快速的方式。</p>
 
-<p>使用Docker容器的优点:</p>
+<h1 id="使用-docker-容器的优点">使用 Docker 容器的优点</h1>
 
 <ul>
-  <li>与主系统共用一个内核，相对VM而言更快速，不会像VM那样明显的拖慢你的系统。</li>
-  <li>大量镜像可供下载，你不再需要把时间浪费在安装系统上。(当然，你不能在Docker上练习操作系统的安装，因为镜像是开箱即用的。除非你做得到！)</li>
+  <li>与主系统共用一个内核，相对 VM 而言更快速，不会像 VM 那样明显的拖慢你的系统。</li>
+  <li>大量镜像可供下载，你不再需要把时间浪费在安装系统上。(当然，你不能在 Docker 上练习操作系统的安装，因为镜像是开箱即用的。除非你做得到！)</li>
   <li>便于备份。如果你失败了就恢复重来。</li>
 </ul>
 
-<h1 id="安装opensuse容器">安装openSUSE容器</h1>
+<h1 id="安装-opensuse-容器">安装 openSUSE 容器</h1>
 
-<p>确保docker已安装并在运行(如果你使用systemd作为init系统(大部分发行版都是这样)，执行<code class="highlighter-rouge">sudo systemctl start docker</code>启动docker。)</p>
+<p>确保 Docker 已安装并在运行(如果你使用 systemd 作为 init 系统(大部分发行版都是这样)，执行<code class="highlighter-rouge">sudo systemctl start docker</code>启动 Docker 。)</p>
 
-<p><code class="highlighter-rouge">sudo docker pull opensuse</code>，下载openSUSE容器镜像。下载完成后执行<code class="highlighter-rouge">sudo docker run -dit --name container opensuse /bin/bash</code>创建并启动openSUSE容器。</p>
+<p><code class="highlighter-rouge">sudo docker pull opensuse</code>，下载 openSUSE 容器镜像。下载完成后执行<code class="highlighter-rouge">sudo docker run -dit --name container opensuse /bin/bash</code>创建并启动 openSUSE 容器。</p>
 
-<p>通俗的讲，<code class="highlighter-rouge">-dit</code>让容器后台运行，<code class="highlighter-rouge">--name</code>参数决定容器的命名。<code class="highlighter-rouge">opensuse</code>是镜像的名字，<code class="highlighter-rouge">/bin/bash</code>命令让Bash运行。</p>
+<p>通俗的讲，<code class="highlighter-rouge">-dit</code>让容器后台运行，<code class="highlighter-rouge">--name</code>参数决定容器的命名。<code class="highlighter-rouge">opensuse</code>是镜像的名字，<code class="highlighter-rouge">/bin/bash</code>命令让 Bash 运行。</p>
 
 <p><code class="highlighter-rouge">sudo docker attach container</code>来连接容器的虚拟终端。<code class="highlighter-rouge">zypper ref</code>刷新软件源，<code class="highlighter-rouge">zypper in 包名</code>来安装软件包，<code class="highlighter-rouge">zypper --help</code>查看帮助。</p>
 
 <h1 id="安装软件">安装软件</h1>
 
-<p>Docker镜像一般较精简，所以你要自行安装你需要的软件包。这里是一些建议:</p>
+<p>Docker 镜像一般较精简，所以你要自行安装你需要的软件包。这里是一些建议:</p>
 
 <ul>
   <li><code class="highlighter-rouge">command-not-found</code>帮助你找到能提供指令的软件包。<code class="highlighter-rouge">cnf 命令</code>来使用，例如<code class="highlighter-rouge">cnf ssh</code>。</li>
-  <li><code class="highlighter-rouge">vim</code>Vim是一款优秀的终端下的编辑器。当然建议先看看Vim的教程，不然你可能连怎么退出Vim都不知道！</li>
+  <li><code class="highlighter-rouge">vim</code>Vim 是一款优秀的终端下的编辑器。当然建议先看看 Vim 的教程，不然你可能连怎么退出 Vim 都不知道！</li>
   <li><code class="highlighter-rouge">w3m</code>命令行下的浏览器，有时候还挺有用的。虽然看上去很蠢！</li>
   <li><code class="highlighter-rouge">screenfetch</code>快速了解你的容器参数。</li>
 </ul>
 
-<p><code class="highlighter-rouge">exit</code>来退出虚拟终端。如果你没有运行别的东西，容器应该会自动关闭。</p>
+<h1 id="基本管理">基本管理</h1>
+
+<p><code class="highlighter-rouge">exit</code>来退出虚拟终端。因为终端的进程号为1，关闭终端后容器会自动关闭。</p>
 
 <p><code class="highlighter-rouge">sudo docker ps</code>列出正在运行的容器</p>
 
@@ -107,7 +109,7 @@
 
 <p><code class="highlighter-rouge">sudo docker rm 容器名</code>删除容器</p>
 
-<p>如果openSUSE有问题，你可以参考<a href="https://zh.opensuse.org">openSUSE Wiki</a>或者通过<a href="https://t.me/opensuse_cn">链接</a>加入openSUSE的官方群组。如果你有能力，那么<a href="https://wiki.archlinux.org">ArchWiki</a>也可以。</p>
+<p>如果 openSUSE 有问题，你可以参考 <a href="https://zh.opensuse.org">openSUSE Wiki</a> 或者通过<a href="https://t.me/opensuse_cn">链接</a>加入 openSUSE 的官方群组。如果你有能力，参考 <a href="https://wiki.archlinux.org">ArchWiki</a> 也可以。</p>
 
   </div>
 
@@ -145,7 +147,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Blockcity使用Jekyll搭建的博客<br/>使用Creative Commons<br/>请阅读一下关于页面
+        <p>Blockcity 使用 Jekyll 搭建的博客<br/>使用 Creative Commons<br/>请阅读一下关于页面
 </p>
       </div>
     </div>

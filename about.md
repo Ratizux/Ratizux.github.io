@@ -10,4 +10,4 @@ Ratizux by Blockcity.
 
 # 友链
   
-[Rasphino的博客](https://blog.rasphino.cn)
+[Rasphino 的博客](https://blog.rasphino.cn)

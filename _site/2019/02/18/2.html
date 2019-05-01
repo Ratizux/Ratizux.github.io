@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>教程|搭建使用GitHub Pages的Jekyll博客</title>
-  <meta name="description" content="想搭建自己的博客，却没有资金使用昂贵的VPS？你可以用GitHub Pages作为免费空间并搭建博客。">
+  <title>教程 | 搭建使用 GitHub Pages 的 Jekyll 博客</title>
+  <meta name="description" content="想搭建自己的博客，却没有资金使用昂贵的 VPS ？你可以用 GitHub Pages 作为免费空间并搭建博客。">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/2019/02/18/2.html">
@@ -57,30 +57,30 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">教程|搭建使用GitHub Pages的Jekyll博客</h1>
-    <p class="post-meta"><time datetime="2019-02-18T21:31:16+08:00" itemprop="datePublished">Feb 18, 2019</time></p>
+    <h1 class="post-title" itemprop="name headline">教程 | 搭建使用 GitHub Pages 的 Jekyll 博客</h1>
+    <p class="post-meta"><time datetime="2019-02-18T00:00:00+08:00" itemprop="datePublished">Feb 18, 2019</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>想搭建自己的博客，却没有资金使用昂贵的VPS？你可以用GitHub Pages作为免费空间并搭建博客。</p>
+    <p>想搭建自己的博客，却没有资金使用昂贵的 VPS ？你可以用 GitHub Pages 作为免费空间并搭建博客。</p>
 
-<p>以下内容假设你在使用Ubuntu 18.10或openSUSE Tumbleweed(其他发行版类似)，并且已经拥有一个GitHub帐号。</p>
+<p>以下内容假设你在使用 Ubuntu 18.10 或 openSUSE Tumbleweed (其他发行版类似)，并且已经拥有一个 GitHub 帐号。</p>
 
-<p>首先，前往<a href="https://github.com/">https://github.com/</a>，新建一个名为”你的用户名.github.io”的库。</p>
+<p>首先，前往 <a href="https://github.com/">GitHub</a> ，新建一个名为”你的用户名.github.io”的库。</p>
 
-<h1 id="安装git和jekyll">安装Git和Jekyll</h1>
+<h1 id="安装-git-和-jekyll">安装 Git 和 Jekyll</h1>
 
-<p>如果你以前没有安装过Git，执行<code class="highlighter-rouge">sudo apt install git</code>来安装命令行Git。</p>
+<p>如果你以前没有安装过 Git ，执行<code class="highlighter-rouge">sudo apt install git</code>来安装命令行 Git 。</p>
 
-<p>执行<code class="highlighter-rouge">git clone https://github.com/你的用户名/你的用户名.github.io</code>然后，<code class="highlighter-rouge">cd '你的用户名.github.io'</code>来进入你的GitHub库。</p>
+<p>执行<code class="highlighter-rouge">git clone https://github.com/你的用户名/你的用户名.github.io</code>然后，<code class="highlighter-rouge">cd '你的用户名.github.io'</code>来进入你的 GitHub 库。</p>
 
-<p><code class="highlighter-rouge">sudo apt install jekyll</code>(Ubuntu)或<code class="highlighter-rouge">sudo zypper in ruby2.6-rubygem-jekyll</code>(openSUSE)来安装你要的Jekyll。为了方便，我们先<code class="highlighter-rouge">cd ..</code>退出目录，然后<code class="highlighter-rouge">jekyll new site &amp;&amp; cd site &amp;&amp; jekyll serve -w</code>。如果你现在打开浏览器并进入<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>，你就能看到你的静态博客了。</p>
+<p><code class="highlighter-rouge">sudo apt install jekyll</code>(Ubuntu)或<code class="highlighter-rouge">sudo zypper in ruby2.6-rubygem-jekyll</code>(openSUSE)来安装 Jekyll 。为了方便，我们先<code class="highlighter-rouge">cd ..</code>退出目录，然后<code class="highlighter-rouge">jekyll new site &amp;&amp; cd site &amp;&amp; jekyll serve -w</code>。如果你现在打开浏览器并进入<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>，你就能看到你的静态博客了。</p>
 
 <p>先别急。回到终端，按Ctrl+C停止Jekyll，再执行<code class="highlighter-rouge">cd ..</code>。此时如果你执行<code class="highlighter-rouge">ls</code>应当可以同时看到”site”和”你的用户名.github.io”两个文件夹。执行<code class="highlighter-rouge">cp -r site/* 你的用户名.github.io/</code>把site里的所有文件复制到GitHub本地库里。<code class="highlighter-rouge">cd 你的用户名.github.io &amp;&amp; jekyll serve -w</code>，如果这时候<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>能正常访问，你就可以把site文件夹删了。</p>
 
 <h1 id="撰写文章">撰写文章</h1>
 
-<p>进入”_posts”文件夹，你所有的文章都在里面。这篇教程中我们使用Markdown语法来写文章。新建一个名为”年-月-日-标题.格式”的文章。假设这篇文章是在2019年2月18日用Markdown写的，那么就把它命名为”2019-02-18-1.md”。</p>
+<p>进入”_posts”文件夹，你所有的文章都在里面。这篇教程中我们使用 Markdown 语法来写文章。新建一个名为”年-月-日-标题.格式”的文章。假设这篇文章是在2019年2月18日用 Markdown 写的，那么就把它命名为”2019-02-18-1.md”。</p>
 
 <p>打开我们刚创建的文档，输入头信息。</p>
 
@@ -91,11 +91,11 @@ date: 写这篇文章的时间。例如"2019-02-18 21:31:16 +0800"
 ---
 </code></pre></div></div>
 
-<p>获取当前时间的一个简便方法是在你的终端里执行<code class="highlighter-rouge">date +%F\ %T\ %z</code>，然后把输出的时间粘贴到那里。</p>
+<p>获取当前时间的一个简便方法是在你的终端里执行<code class="highlighter-rouge">date +%F\ %T\ %z</code>，然后把输出的时间粘贴到那里。当然直接写年份-时间-日期或者省略不写（把日期写在文件名里）也不是不可以。</p>
 
-<p>头信息下面是正文部分。如果你还不会写Markdown，建议你参考<a href="http://www.markdown.cn/">http://www.markdown.cn/</a>。写完之后保存文件。现在你可以修改一下上级目录里的”_config.yml”，让它看起来像一个正常的博客。顺便看一下<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>中的变化是否令你满意。如果一切都如预期发展，你现在就可以关闭文本编辑器和浏览器，在终端按Ctrl+C关闭Jekyll，然后你就可以把改动提交到GitHub库了。</p>
+<p>头信息下面是正文部分。如果你还不会写 Markdown ，建议你参考<a href="http://www.markdown.cn/">Markdown中文</a>。写完之后保存文件。现在你可以修改一下上级目录里的”_config.yml”，让它看起来像一个正式的博客。顺便看一下<a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>中的变化是否令你满意。如果一切都如预期发展，你现在就可以关闭文本编辑器和浏览器，在终端按Ctrl+C关闭Jekyll，然后你就可以把改动提交到GitHub库了。</p>
 
-<p>关闭Jekyll，不要退出终端。现在你应该还在”你的用户名.github.io”文件夹里。接着执行以下命令:</p>
+<p>关闭 Jekyll ，不要退出终端。现在你应该还在”你的用户名.github.io”文件夹里。接着执行以下命令:</p>
 
 <p><code class="highlighter-rouge">git add --all</code>添加所有文件到本地库。</p>
 
@@ -105,7 +105,7 @@ date: 写这篇文章的时间。例如"2019-02-18 21:31:16 +0800"
 
 <p><code class="highlighter-rouge">git commit -m "提交信息"</code>添加提交信息。例如”新增了1篇文章”。</p>
 
-<p><code class="highlighter-rouge">git push -u origin master</code>并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。</p>
+<p><code class="highlighter-rouge">git push -u origin master</code>并按照提示输入 GitHub 帐号和密码，将改动提交到远程 GitHub 库。</p>
 
 <p>打开浏览器，进入”https://你的用户名.github.io”即可看到你的博客。</p>
 
@@ -125,9 +125,9 @@ date: 写这篇文章的时间。例如"2019-02-18 21:31:16 +0800"
 
 <p><code class="highlighter-rouge">git commit -m "提交信息"</code>添加提交信息。比如”新增了1篇文章”。</p>
 
-<p><code class="highlighter-rouge">git push -u origin master</code>并按照提示输入GitHub帐号和密码，将改动提交到远程GitHub库。</p>
+<p><code class="highlighter-rouge">git push -u origin master</code>并按照提示输入 GitHub 帐号和密码，将改动提交到远程 GitHub 库。</p>
 
-<p>尽情享受Jekyll带来的便利吧！</p>
+<p>尽情享受 Jekyll 带来的便利吧！</p>
 
   </div>
 
@@ -165,7 +165,7 @@ date: 写这篇文章的时间。例如"2019-02-18 21:31:16 +0800"
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Blockcity使用Jekyll搭建的博客<br/>使用Creative Commons<br/>请阅读一下关于页面
+        <p>Blockcity 使用 Jekyll 搭建的博客<br/>使用 Creative Commons<br/>请阅读一下关于页面
 </p>
       </div>
     </div>
