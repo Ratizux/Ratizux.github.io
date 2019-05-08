@@ -11,3 +11,5 @@ Ratizux by Blockcity.
 # 友链
   
 [Rasphino 的博客](https://blog.rasphino.cn)
+
+[约伊兹的萌狼乡手札](https://blog.yoitsu.moe)
