@@ -6,8 +6,8 @@
 </description>
     <link>https://ratizux.github.io/</link>
     <atom:link href="https://ratizux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 May 2019 21:48:53 +0800</pubDate>
-    <lastBuildDate>Thu, 09 May 2019 21:48:53 +0800</lastBuildDate>
+    <pubDate>Thu, 09 May 2019 21:59:02 +0800</pubDate>
+    <lastBuildDate>Thu, 09 May 2019 21:59:02 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -20,9 +20,10 @@
 
 &lt;p&gt;UserLAnd 使用相对 Linux Deploy 更美观的前端，令人耳目一新。不过官方支持的发行版很少。&lt;/p&gt;
 
-&lt;p&gt;你可以只安装某一个或几个软件，UserLAnd 会自动配置一个 Debian 容器来运行它们。这样每一个软件都是独立安装的，好处之一就是更加安全。&lt;/p&gt;
+&lt;p&gt;你可以只安装某一个或几个软件，UserLAnd 会自动配置一个 Debian 容器来运行它们。这样每一个软件都是独立安装的，好处之一就是更加安全。&lt;br /&gt;
+或者，你也可以安装一个桌面环境。这样体验会和 Linux Deploy 差不多。&lt;/p&gt;
 
-&lt;p&gt;或者，你也可以安装一个桌面环境。这样体验会和 Linux Deploy 差不多。&lt;/p&gt;
+&lt;p&gt;缺点就是国内下载容器 RootFS (通俗来讲类似系统镜像，不过是半配置好的) 的时候很慢。&lt;/p&gt;
 
 &lt;p&gt;如果你准备好试一试了，&lt;a href=&quot;https://f-droid.org/en/packages/tech.ula/&quot;&gt;此处&lt;/a&gt;是 UserLAnd 的 F-Droid 下载页。&lt;/p&gt;
 </description>
