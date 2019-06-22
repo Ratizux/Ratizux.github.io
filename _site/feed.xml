@@ -6,9 +6,96 @@
 </description>
     <link>https://ratizux.github.io/</link>
     <atom:link href="https://ratizux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 May 2019 12:30:37 +0800</pubDate>
-    <lastBuildDate>Fri, 10 May 2019 12:30:37 +0800</lastBuildDate>
+    <pubDate>Sat, 22 Jun 2019 23:01:41 +0800</pubDate>
+    <lastBuildDate>Sat, 22 Jun 2019 23:01:41 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>笔记 | Linux 的小技巧</title>
+        <description>&lt;h1 id=&quot;用-wget-下载网页&quot;&gt;用 Wget 下载网页&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wget -c -r -np -H -p -k 链接&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;-c 启用断点续传，这样下载失败时无需完全重新下载。&lt;/p&gt;
+
+&lt;p&gt;-r 启用递归下载，可以下载整个网页。&lt;/p&gt;
+
+&lt;p&gt;-np 递归时不追溯到上级目录。如果你需要，也可以去掉这个参数。&lt;/p&gt;
+
+&lt;p&gt;-H 启用转向外部主机，网页中可能包含其他服务器中的资源。&lt;/p&gt;
+
+&lt;p&gt;-p 下载所有元素。&lt;/p&gt;
+
+&lt;p&gt;-k 将绝对链接转化为相对链接以便本地访问。&lt;/p&gt;
+
+&lt;h1 id=&quot;分析文件夹占用的空间&quot;&gt;分析文件夹占用的空间&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;du -sh *|sort -h&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;挂载使用-ram-空间的-tmpfs&quot;&gt;挂载使用 RAM 空间的 tmpfs&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo mount -t tmpfs -o size=大小 tmpfs 挂载点&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;查看存储设备的信息&quot;&gt;查看存储设备的信息&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo blkid (块设备)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo blkid&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo blkid /dev/sda1&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;查看分区用量&quot;&gt;查看分区用量&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;df (挂载点)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;df -h&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;df -h /&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;查看挂载点&quot;&gt;查看挂载点&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;findmnt&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;检查文件系统&quot;&gt;检查文件系统&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo fsck 块设备&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo fsck /dev/sda1&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;简单的-chroot&quot;&gt;简单的 Chroot&lt;/h1&gt;
+
+&lt;p&gt;假设已进入容器 rootfs 目录命名为 &lt;code class=&quot;highlighter-rouge&quot;&gt;rootfs&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;p&gt;挂载时：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd rootfs&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mount --types proc /proc proc&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mount -o bind /sys sys&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mount -o bind /dev dev&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mount -o bind /run run&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chroot .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;卸载时：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;umount --recursive rootfs&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;用-rsync-备份数据&quot;&gt;用 Rsync 备份数据&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rsync -s --delete 原路径 备份路径&lt;/code&gt; 就好。注意文件夹名后的斜杠不能随意增删，不能把&lt;code class=&quot;highlighter-rouge&quot;&gt;/home/&lt;/code&gt;写作&lt;code class=&quot;highlighter-rouge&quot;&gt;/home&lt;/code&gt;。别问我是怎么知道的。&lt;/p&gt;
+
+&lt;p&gt;例如，&lt;code class=&quot;highlighter-rouge&quot;&gt;rsync -s --delete /home/ /mnt/&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;rsync -s --delete /home /mnt&lt;/code&gt;是一样的意思，执行后&lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt&lt;/code&gt;目录的内容会和&lt;code class=&quot;highlighter-rouge&quot;&gt;/home&lt;/code&gt;一致。但如果使用&lt;code class=&quot;highlighter-rouge&quot;&gt;rsync -s --delete /home /mnt/&lt;/code&gt;，rsync 就会在 &lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt&lt;/code&gt; 目录下创建一个名为 &lt;code class=&quot;highlighter-rouge&quot;&gt;home&lt;/code&gt; 的文件夹用来存放数据。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;谨慎操作。&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Jun 2019 00:00:00 +0800</pubDate>
+        <link>https://ratizux.github.io/2019/06/22/1.html</link>
+        <guid isPermaLink="true">https://ratizux.github.io/2019/06/22/1.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>分享 | UserLAnd 让你在 Android 设备上使用 GNU/Linux 容器</title>
@@ -31,78 +118,6 @@
         <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
         <link>https://ratizux.github.io/2019/05/09/1.html</link>
         <guid isPermaLink="true">https://ratizux.github.io/2019/05/09/1.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>摸鱼 | 中国学生的日程</title>
-        <description>&lt;p&gt;仅供娱乐，请勿认真对待。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;5:00 AM&lt;/th&gt;
-      &lt;th&gt;6:00 AM&lt;/th&gt;
-      &lt;th&gt;7:00 AM&lt;/th&gt;
-      &lt;th&gt;8:00 AM&lt;/th&gt;
-      &lt;th&gt;9:00 AM&lt;/th&gt;
-      &lt;th&gt;10:00 AM&lt;/th&gt;
-      &lt;th&gt;11:00 AM&lt;/th&gt;
-      &lt;th&gt;12:00 AM&lt;/th&gt;
-      &lt;th&gt;1:00 PM&lt;/th&gt;
-      &lt;th&gt;2:00 PM&lt;/th&gt;
-      &lt;th&gt;3:00 PM&lt;/th&gt;
-      &lt;th&gt;4:00 PM&lt;/th&gt;
-      &lt;th&gt;5:00 PM&lt;/th&gt;
-      &lt;th&gt;6:00 PM&lt;/th&gt;
-      &lt;th&gt;7:00 PM&lt;/th&gt;
-      &lt;th&gt;8:00 PM&lt;/th&gt;
-      &lt;th&gt;9:00 PM&lt;/th&gt;
-      &lt;th&gt;10:00 PM&lt;/th&gt;
-      &lt;th&gt;11:00 PM&lt;/th&gt;
-      &lt;th&gt;12:00 PM&lt;/th&gt;
-      &lt;th&gt;1:00 AM&lt;/th&gt;
-      &lt;th&gt;2:00 AM&lt;/th&gt;
-      &lt;th&gt;3:00 AM&lt;/th&gt;
-      &lt;th&gt;4:00 AM&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;睡觉&lt;/td&gt;
-      &lt;td&gt;起床&lt;/td&gt;
-      &lt;td&gt;早读&lt;/td&gt;
-      &lt;td&gt;上课&lt;/td&gt;
-      &lt;td&gt;上课&lt;/td&gt;
-      &lt;td&gt;仍然在上课&lt;/td&gt;
-      &lt;td&gt;还是在上课&lt;/td&gt;
-      &lt;td&gt;放学，吃饭&lt;/td&gt;
-      &lt;td&gt;午休&lt;/td&gt;
-      &lt;td&gt;上课&lt;/td&gt;
-      &lt;td&gt;上课&lt;/td&gt;
-      &lt;td&gt;怎么一直在上课？&lt;/td&gt;
-      &lt;td&gt;………………&lt;/td&gt;
-      &lt;td&gt;下课，跑操，放学&lt;/td&gt;
-      &lt;td&gt;吃饭，肝作业&lt;/td&gt;
-      &lt;td&gt;肝作业&lt;/td&gt;
-      &lt;td&gt;你的作业没写完&lt;/td&gt;
-      &lt;td&gt;我的作业没写完&lt;/td&gt;
-      &lt;td&gt;原来你也没写完&lt;/td&gt;
-      &lt;td&gt;手速快的应该已经写完了&lt;/td&gt;
-      &lt;td&gt;你的作业写不完&lt;/td&gt;
-      &lt;td&gt;不如我们交白卷&lt;/td&gt;
-      &lt;td&gt;别肝了交不上的&lt;/td&gt;
-      &lt;td&gt;睡得像死猪（不清真）一样&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;如果你发现你的日程和上表离奇的相似，说明你的学校很正常。&lt;/p&gt;
-</description>
-        <pubDate>Thu, 28 Mar 2019 00:00:00 +0800</pubDate>
-        <link>https://ratizux.github.io/2019/03/28/1.html</link>
-        <guid isPermaLink="true">https://ratizux.github.io/2019/03/28/1.html</guid>
         
         
       </item>
