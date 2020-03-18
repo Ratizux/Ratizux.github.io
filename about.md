@@ -15,3 +15,5 @@ Ratizux by Blockcity. 使用 Markdown
 [约伊兹的萌狼乡手札](https://blog.yoitsu.moe)
 
 [CKylinMC](https://www.ckylin.site/)
+
+[Andy Chen](https://andychen.tk)
