@@ -17,3 +17,5 @@ Ratizux by Blockcity. 使用 Markdown
 [CKylinMC](https://www.ckylin.site/)
 
 [Andy Chen](https://andychen.tk)
+
+[夏夜随风](https://blog.firerain.me)
