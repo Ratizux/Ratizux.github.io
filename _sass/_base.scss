@@ -209,6 +209,23 @@ pre {
 {
     body
     {
-        background-color:"#111";
+        background-color: #111;
+    }
+    a
+    {
+        color: #6ee;
+        
+        &:visited
+        {
+            color: #4bb;
+        }
+        
+        &:hover {
+            color: $text-color;
+        }
+    }
+    blockquote
+    {
+        color: #aaa;
     }
 }
