@@ -70,10 +70,11 @@
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-@media (perfers-color-scheme:dark)
+@media (prefers-color-scheme:dark)
 {
     body
     {
+        color: #eee;
         background-color: #111;
     }
     a
@@ -90,6 +91,10 @@
         }
     }
     blockquote
+    {
+        color: #aaa;
+    }
+    .site-title, .site-title:visited
     {
         color: #aaa;
     }
