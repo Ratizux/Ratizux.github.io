@@ -204,28 +204,3 @@ pre {
         }
     }
 }
-
-@media (perfers-color-scheme:dark)
-{
-    body
-    {
-        background-color: #111;
-    }
-    a
-    {
-        color: #6ee;
-        
-        &:visited
-        {
-            color: #4bb;
-        }
-        
-        &:hover {
-            color: $text-color;
-        }
-    }
-    blockquote
-    {
-        color: #aaa;
-    }
-}
