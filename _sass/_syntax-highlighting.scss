@@ -69,3 +69,28 @@
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+@media (perfers-color-scheme:dark)
+{
+    body
+    {
+        background-color: #111;
+    }
+    a
+    {
+        color: #6dd;
+        
+        &:visited
+        {
+            color: #4bb;
+        }
+        
+        &:hover {
+            color: #8ff;
+        }
+    }
+    blockquote
+    {
+        color: #aaa;
+    }
+}
