@@ -98,4 +98,16 @@
     {
         color: #aaa;
     }
+    .highlighter-rouge, .highlight
+    {
+        background-color: #444;
+    }
+    pre, code
+    {
+        background-color: #444;
+    }
+    img
+    {
+        filter: brightness(75%);
+    }
 }
