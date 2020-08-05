@@ -19,3 +19,7 @@ Ratizux by Blockcity. 使用 Markdown
 [Andy Chen](https://andychen.tk)
 
 [夏夜随风](https://blog.firerain.me)
+
+[Mado](https://mado.eu.org)
+
+[Piggy](https://piggy.moe/)
