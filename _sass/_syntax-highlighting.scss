@@ -100,14 +100,18 @@
     }
     .highlighter-rouge .highlight
     {
-        background-color: #444;
+        background-color: #222;
     }
     pre, code
     {
-        background-color: #444;
+        background-color: #222;
     }
     img
     {
         filter: brightness(75%);
+    }
+    .site-nav
+    {
+        background-color: #aaa;
     }
 }
