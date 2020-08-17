@@ -8,7 +8,11 @@ Ratizux by Blockcity. 使用 Markdown
 
 除特殊声明外，所有原创内容均使用 CC BY-SA 4.0 协议。
 
-# 友链
+# 订阅
+
+通过 [RSS 链接]({{site.url}}/feed.xml)方便地订阅博客，省去手动检查新内容的麻烦。
+
+# 友情链接
   
 [Rasphino 的博客](https://blog.rasphino.cn)
 
