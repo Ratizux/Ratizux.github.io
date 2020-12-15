@@ -1,8 +1,9 @@
 ---
 layout: page
-title: More
-permalink: /more/
+title: Laboratory
+permalink: /laboratory/
 ---
+# 实验室
 <p>
 <script>
 "use strict"
