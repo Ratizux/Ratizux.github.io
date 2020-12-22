@@ -17,6 +17,7 @@ permalink: /laboratory/
 "use strict"
 function sqrt()
 {
+    document.getElementById("sqrt-result").innerHTML="等待...";
     let begin,end;
     
     begin=new Date();
@@ -35,6 +36,7 @@ function sqrt()
 let n,m,ans=0,x=[],rlock=[],slock=[],slockr=[];
 function init()
 {
+    document.getElementById("nq-result").innerHTML="等待...";
     let timeBegin=new Date();
     
     n=13;
@@ -48,7 +50,6 @@ function init()
     let timeEnd=new Date();
     let timeTotal=timeEnd.getTime()-timeBegin.getTime();
     document.getElementById("nq-result").innerHTML=timeTotal+"ms. 耗时越低越好";
-    
 }
 
 function dfs(line,row)
