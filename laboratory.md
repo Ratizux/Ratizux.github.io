@@ -76,3 +76,9 @@ function dfs(line,row)
 "use strict"
   document.write('<h3>基准测试</h3><p>这只是个玩具。</p><h4>N皇后问题</h4><p>n=13，使用朴素的深度优先搜索算法。</p><button onclick="setTimeout(init,200)">开始测试</button><p id="nq-result">-----</p><h4>平方根求解</h4><button onclick="setTimeout(sqrt,200)">开始测试</button><p id="sqrt-result">-----</p>');
 </script>
+
+### 伏安特性曲线
+
+学校实验室搬走了，想画电源伏安特性曲线怎么办？
+
+[造个虚拟的出来。](https://ratizux.github.io/res/c-v-characteristic.html)
