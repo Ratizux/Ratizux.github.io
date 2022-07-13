@@ -81,8 +81,4 @@ function dfs(line,row)
 
 学校实验室搬走了，想画电源伏安特性曲线怎么办？
 
-[造个虚拟的出来。](https://ratizux.github.io/res/c-v-characteristic.html)
-
-### 选择题
-
-[语文，我的痛苦之源。](https://ratizux.github.io/res/quiz.html)
+[造个虚拟的出来。](https://ratizux.github.io/res/c-v-characteristic/c-v-characteristic.html)
