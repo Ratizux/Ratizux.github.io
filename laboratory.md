@@ -81,4 +81,14 @@ function dfs(line,row)
 
 学校实验室搬走了，想画电源伏安特性曲线怎么办？
 
-[造个虚拟的出来。](https://ratizux.github.io/res/c-v-characteristic/c-v-characteristic.html)
+[造个虚拟的出来。]({{site.url}}/res/c-v-characteristic/c-v-characteristic.html)
+
+### 康威生命游戏
+
+大一上学期结课，在C语言的课设上就用 ncurses 搓了个康威生命游戏，结果发现其他同学都在搞大工程，做围棋游戏、用 Qt 写图形程序、用 Unity 做 3D 游戏的都有，对我这种七百行代码、git 都没必要用的玩具简直就是降维打击。根本卷不过啊！
+
+砹，砹，砹；砹，砹，砹。
+
+课设的作品一点技术含量都没有，拿来水博客太尴尬，不如用 emscripten 编译成[网页]({{site.url}}/res/conway/conway.html)扔博客上。
+
+构建时用了 [emcurses](https://github.com/rhaberkorn/emcurses) 库，同时用了 emcurses 演示文件里原装的 HTML。
