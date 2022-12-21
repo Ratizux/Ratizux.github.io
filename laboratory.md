@@ -92,3 +92,5 @@ function dfs(line,row)
 课设的作品一点技术含量都没有，拿来水博客太尴尬，不如用 emscripten 编译成[网页]({{site.url}}/res/conway/conway.html)扔博客上。
 
 构建时用了 [emcurses](https://github.com/rhaberkorn/emcurses) 库，同时用了 emcurses 演示文件里原装的 HTML。
+
+方向键控制目标，按 Z/X 控制细胞状态，按 P 暂停/恢复，按 N 手动切帧。
