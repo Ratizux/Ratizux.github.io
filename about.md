@@ -28,6 +28,6 @@ Ratizux by Blockcity. 使用 Markdown
 
 [Sinofine](https://sinofine.me)
 
-[寒晶雪的文档站](https://hanjingxue-boling.github.io/Whiteboard/)
+[寒晶雪的文档站](https://hanjingxue-boling.github.io/whiteboard/)
 
 [Carbyne](https://c-j.dev)
