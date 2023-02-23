@@ -18,3 +18,4 @@ github_username:  Ratizux
 
 # Build settings
 markdown: kramdown
+exclude: res/
