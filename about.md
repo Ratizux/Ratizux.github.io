@@ -35,3 +35,5 @@ Ratizux by Blockcity. 使用 Markdown
 [ImBearChild 的自留地](https://imbearchild.cyou/)
 
 [舞夜优的博客](https://zomby7e.blogspot.com/)
+
+[Ralph 的博客](https://blog.ralxyz.xyz/)
