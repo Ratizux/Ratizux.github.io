@@ -28,7 +28,7 @@ Ratizux by Blockcity. 使用 Markdown
 
 [Sinofine](https://sinofine.me)
 
-[寒晶雪的文档站](https://hanjingxue-boling.github.io/whiteboard/)
+[白杨的文档站](https://whiteboard-ui8.pages.dev/)
 
 [Carbyne](https://c-j.dev)
 
