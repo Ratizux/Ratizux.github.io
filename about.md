@@ -40,4 +40,4 @@ Ratizux by Blockcity. 使用 Markdown
 
 [Andr](https://kithium.me/)
 
-[梓瑶老师的学术主页](https://ziyao233.github.io/)
+[梓瑶老师的学术主页](https://blog.ziyao.cc/)
